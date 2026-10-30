@@ -1,10 +1,14 @@
 # Príncipe Pío · v0.7
 
+**[Abrir la aplicación](https://luisangellopezromero.github.io/principe-pio-veterinaria/)** · Clave de cortesía: `Sobreviviendo`.
+
+Web pública alojada en GitHub Pages, sin cuenta de ChatGPT. La clave solo muestra una pantalla de entrada y no protege datos privados.
+
 Aplicación privada de apoyo veterinario. Reconstrucción desde el PDF maestro del 29/10/2026; no se recibió código v0.1. Interfaz española responsive, búsqueda por marca/activo, especialidades, seis rutas, favoritos, fichas y motor de dosis con bloqueos.
 
 ## Probar sin instalar
 
-Abrir la URL privada que acompaña a la entrega e iniciar sesión con la cuenta autorizada de ChatGPT. No se requiere instalar la aplicación. La contraseña del PDF no se distribuye ni se incrusta en JavaScript: Sites protege el acceso antes de servir los archivos.
+Abrir el enlace anterior e introducir la clave de cortesía. No se requiere instalar la aplicación ni iniciar sesión en ChatGPT. La contraseña del PDF original no se distribuye.
 
 1. Pulsar Perro o Gato e introducir peso, edad y unidad.
 2. Buscar cualquier medicamento por nombre o activo y pulsarlo. La búsqueda muestra antes si aún no tiene cálculo validado.
@@ -47,9 +51,9 @@ Abrir http://127.0.0.1:8080. Este servidor es solo local y no incorpora autentic
 
 La regla Metrobactin usa 25 mg/kg por administración, dos administraciones diarias; no confundir con 50 mg/kg/día. Tablas oficiales prevalecen sobre cantidad teórica. No se suman componentes ni se intercambian sal y base. Synulox tiene una regla líquida conservadora en el tramo documentado hasta 4 kg, sin redondeo; Doxybactin muestra total diario por indicación.
 
-## Repositorio privado
+## Publicación
 
-Este árbol tiene código sin secretos, package.json, pruebas con Node nativo y flujo CI. Repositorio: https://github.com/LuisAngelLopezRomero/principe-pio-veterinaria (privado). No habilitar GitHub Pages: un repositorio privado no garantiza un sitio web privado. La configuración específica del alojamiento Sites no se incluye en esta copia para GitHub. Para otro alojamiento debe diseñarse y verificarse una capa de autenticación de servidor antes de publicar.
+Este árbol tiene código sin secretos, package.json, pruebas con Node nativo y flujo CI. Repositorio: https://github.com/LuisAngelLopezRomero/principe-pio-veterinaria (público, con autorización del propietario). GitHub Pages publica únicamente dist; el repositorio y su historial también son públicos. La configuración específica del alojamiento Sites no se incluye en esta copia para GitHub. La pantalla de entrada no sustituye una autenticación de servidor.
 
 El código se conserva también en el alojamiento privado de Sites. Las copias PDF y sus extractos quedan fuera de esta subida. Se conservan las referencias oficiales y los informes de revisión. Una revisión automática bloqueó un PDF por contener un enlace privado de SharePoint; no se incluye ese documento.
 
