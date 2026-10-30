@@ -1,0 +1,424 @@
+{
+  "reviewedAt": "2026-10-30",
+  "validatedCandidates": [
+    {
+      "presentationId": "popandog-1",
+      "name": "Popandog 50/144/200 mg",
+      "source": {
+        "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3169%20ESP/FT_3169%20ESP.pdf",
+        "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3169+ESP",
+        "reviewedAt": "2026-10-30",
+        "revision": "10/2026",
+        "sections": [
+          "2",
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5",
+          "3.7",
+          "3.8",
+          "3.9"
+        ],
+        "registryStatusObserved": "Autorizado",
+        "verification": "SPC completo consultado; tabla cotejada visualmente; identidad del envase de clínica pendiente"
+      },
+      "status": "document_verified",
+      "calculationCandidate": true,
+      "species": [
+        "perro"
+      ],
+      "route": "oral",
+      "components": [
+        {
+          "name": "prazicuantel",
+          "mgPerTablet": 50,
+          "theoreticalMgKg": 5
+        },
+        {
+          "name": "embonato de pirantel",
+          "mgPerTablet": 144,
+          "theoreticalMgKg": 14.4
+        },
+        {
+          "name": "fenbendazol",
+          "mgPerTablet": 200,
+          "theoreticalMgKg": 20
+        }
+      ],
+      "tabletStep": 0.5,
+      "table": [
+        {
+          "min": 2,
+          "max": 5,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 0.5
+        },
+        {
+          "min": 5,
+          "max": 10,
+          "minInclusive": false,
+          "maxInclusive": true,
+          "tablets": 1
+        },
+        {
+          "min": 10,
+          "max": 20,
+          "minInclusive": false,
+          "maxInclusive": true,
+          "tablets": 2
+        },
+        {
+          "min": 20,
+          "max": 30,
+          "minInclusive": false,
+          "maxInclusive": true,
+          "tablets": 3
+        },
+        {
+          "min": 30,
+          "max": 40,
+          "minInclusive": false,
+          "maxInclusive": true,
+          "tablets": 4
+        }
+      ],
+      "indications": [
+        {
+          "id": "mixed_helminths",
+          "label": "Infección mixta por nematodos y cestodos; confirmar especies o riesgo epidemiológico",
+          "frequency": "Administración única",
+          "duration": "Repetir a los 14 días si helmintiasis diagnosticada"
+        }
+      ],
+      "contraindications": [
+        "hipersensibilidad",
+        "gestación durante primeras 4 semanas",
+        "piperazina",
+        "organofosforados",
+        "dietilcarbamazina",
+        "morantel"
+      ],
+      "precautions": [
+        "Gestación posterior y lactancia: evaluación beneficio/riesgo",
+        "Cachorros: evaluación beneficio/riesgo; <6 semanas puede ser innecesario",
+        "Caquexia, debilidad o infestación intensa: valoración veterinaria",
+        "Si no hay riesgo de coinfección, preferir espectro reducido"
+      ],
+      "noSpecificRuleInSPC": [
+        "renal",
+        "hepática",
+        "cardíaca"
+      ],
+      "note": "Tabla exclusiva 2–40 kg; no extrapolar. No convertir embonato a pirantel base. Mitad autorizada por tabla. Fracción de blíster sobrante se desecha."
+    },
+    {
+      "status": "document_verified",
+      "calculationCandidate": true,
+      "species": [
+        "perro"
+      ],
+      "route": "oral",
+      "tabletStep": 0.25,
+      "theoreticalMgKg": 5,
+      "minAgeWeeks": 10,
+      "minWeightKg": 3,
+      "indications": [
+        {
+          "id": "osteoarthritis",
+          "label": "Dolor/inflamación por osteoartritis",
+          "frequency": "Cada 24 horas",
+          "duration": "Según respuesta y revisión; estudios limitados a 90 días, no duración automática"
+        },
+        {
+          "id": "postoperative",
+          "label": "Dolor/inflamación tras cirugía de tejidos blandos, ortopédica o dental",
+          "frequency": "Cada 24 horas",
+          "duration": "Hasta 3 días; iniciar aproximadamente 2 horas antes. Extensión ortopédica individualizada"
+        }
+      ],
+      "contraindications": [
+        "gestación",
+        "lactancia",
+        "edad <10 semanas",
+        "peso <3 kg",
+        "hemorragia gastrointestinal",
+        "discrasia sanguínea",
+        "trastorno hemorrágico",
+        "otro AINE",
+        "corticoide",
+        "hipersensibilidad"
+      ],
+      "precautions": [
+        "Renal, hepática o cardíaca: vigilancia veterinaria cuidadosa si uso inevitable",
+        "Evitar deshidratación, hipovolemia, hipotensión y nefrotóxicos concomitantes",
+        "Riesgo de sangrado digestivo o intolerancia previa AINE: control estricto",
+        "Bioquímica renal/hepática antes y periódicamente",
+        "Suspender ante vómito, diarrea repetida, sangre oculta fecal, pérdida súbita de peso, anorexia, letargia o alteración renal/hepática"
+      ],
+      "interactions": [
+        "Diuréticos e IECA: control clínico",
+        "Anestésicos: considerar fluidoterapia parenteral perioperatoria",
+        "Alta unión proteica: competencia/toxicidad",
+        "Antiinflamatorio previo: mínimo 24 h sin tratamiento, adaptar a farmacocinética; 24 h no garantiza intervalo suficiente"
+      ],
+      "note": "No redondear peso ni completar huecos de tabla. Con/sin alimento. Fracciones en blíster, utilizar antes de 4 días.",
+      "presentationId": "firodyl-1",
+      "name": "Firodyl 62,5 mg",
+      "source": {
+        "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3849%20ESP/FT_3849%20ESP.pdf",
+        "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3849+ESP",
+        "reviewedAt": "2026-10-30",
+        "revision": "10/2025",
+        "sections": [
+          "2",
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5",
+          "3.7",
+          "3.8",
+          "3.9"
+        ],
+        "registryStatusObserved": "Autorizado",
+        "verification": "SPC completo consultado; tabla cotejada visualmente; identidad del envase de clínica pendiente"
+      },
+      "components": [
+        {
+          "name": "firocoxib",
+          "mgPerTablet": 62.5,
+          "theoreticalMgKg": 5
+        }
+      ],
+      "table": [
+        {
+          "min": 3.1,
+          "max": 3.1,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 0.25
+        },
+        {
+          "min": 3.2,
+          "max": 6.2,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 0.5
+        },
+        {
+          "min": 6.3,
+          "max": 9.3,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 0.75
+        },
+        {
+          "min": 9.4,
+          "max": 12.5,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 1
+        },
+        {
+          "min": 12.6,
+          "max": 15.5,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 1.25
+        },
+        {
+          "min": 15.6,
+          "max": 18.5,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 1.5
+        },
+        {
+          "min": 18.6,
+          "max": 21.5,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 1.75
+        }
+      ]
+    },
+    {
+      "status": "document_verified",
+      "calculationCandidate": true,
+      "species": [
+        "perro"
+      ],
+      "route": "oral",
+      "tabletStep": 0.25,
+      "theoreticalMgKg": 5,
+      "minAgeWeeks": 10,
+      "minWeightKg": 3,
+      "indications": [
+        {
+          "id": "osteoarthritis",
+          "label": "Dolor/inflamación por osteoartritis",
+          "frequency": "Cada 24 horas",
+          "duration": "Según respuesta y revisión; estudios limitados a 90 días, no duración automática"
+        },
+        {
+          "id": "postoperative",
+          "label": "Dolor/inflamación tras cirugía de tejidos blandos, ortopédica o dental",
+          "frequency": "Cada 24 horas",
+          "duration": "Hasta 3 días; iniciar aproximadamente 2 horas antes. Extensión ortopédica individualizada"
+        }
+      ],
+      "contraindications": [
+        "gestación",
+        "lactancia",
+        "edad <10 semanas",
+        "peso <3 kg",
+        "hemorragia gastrointestinal",
+        "discrasia sanguínea",
+        "trastorno hemorrágico",
+        "otro AINE",
+        "corticoide",
+        "hipersensibilidad"
+      ],
+      "precautions": [
+        "Renal, hepática o cardíaca: vigilancia veterinaria cuidadosa si uso inevitable",
+        "Evitar deshidratación, hipovolemia, hipotensión y nefrotóxicos concomitantes",
+        "Riesgo de sangrado digestivo o intolerancia previa AINE: control estricto",
+        "Bioquímica renal/hepática antes y periódicamente",
+        "Suspender ante vómito, diarrea repetida, sangre oculta fecal, pérdida súbita de peso, anorexia, letargia o alteración renal/hepática"
+      ],
+      "interactions": [
+        "Diuréticos e IECA: control clínico",
+        "Anestésicos: considerar fluidoterapia parenteral perioperatoria",
+        "Alta unión proteica: competencia/toxicidad",
+        "Antiinflamatorio previo: mínimo 24 h sin tratamiento, adaptar a farmacocinética; 24 h no garantiza intervalo suficiente"
+      ],
+      "note": "No redondear peso ni completar huecos de tabla. Con/sin alimento. Fracciones en blíster, utilizar antes de 4 días.",
+      "presentationId": "firodyl-2",
+      "name": "Firodyl 250 mg",
+      "source": {
+        "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3850%20ESP/FT_3850%20ESP.pdf",
+        "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3850+ESP",
+        "reviewedAt": "2026-10-30",
+        "revision": "10/2025",
+        "sections": [
+          "2",
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5",
+          "3.7",
+          "3.8",
+          "3.9"
+        ],
+        "registryStatusObserved": "Autorizado",
+        "verification": "SPC completo consultado; tabla cotejada visualmente; identidad del envase de clínica pendiente"
+      },
+      "components": [
+        {
+          "name": "firocoxib",
+          "mgPerTablet": 250,
+          "theoreticalMgKg": 5
+        }
+      ],
+      "table": [
+        {
+          "min": 9.4,
+          "max": 12.5,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 0.25
+        },
+        {
+          "min": 21.6,
+          "max": 25,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 0.5
+        },
+        {
+          "min": 25.1,
+          "max": 37.5,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 0.75
+        },
+        {
+          "min": 37.6,
+          "max": 50,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 1
+        },
+        {
+          "min": 50.1,
+          "max": 62.5,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 1.25
+        },
+        {
+          "min": 62.6,
+          "max": 75,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 1.5
+        },
+        {
+          "min": 75.1,
+          "max": 87.5,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 1.75
+        },
+        {
+          "min": 87.6,
+          "max": 100,
+          "minInclusive": true,
+          "maxInclusive": true,
+          "tablets": 2
+        }
+      ]
+    }
+  ],
+  "pending": [
+    {
+      "name": "Clindaseptin 25 mg/ml",
+      "status": "conflict_pending",
+      "source": {
+        "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/2512%20ESP/FT_2512%20ESP.pdf",
+        "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=2512+ESP",
+        "reviewedAt": "2026-10-30",
+        "revision": "02/2026",
+        "sections": [
+          "2",
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5",
+          "3.7",
+          "3.8",
+          "3.9"
+        ],
+        "registryStatusObserved": "Autorizado",
+        "verification": "SPC completo consultado; tabla cotejada visualmente; identidad del envase de clínica pendiente"
+      },
+      "reason": "FT 3.9: 5,5 y 11 mg/kg; tabla orientativa 0,25 y 0,5 ml/kg. A 25 mg/ml, equivalencias aritméticas 0,22 y 0,44 ml/kg. No resolver discrepancia silenciosamente; confirmar antes de habilitar administración."
+    },
+    {
+      "name": "Prevomax 10 mg/ml",
+      "status": "full_document_inaccessible",
+      "url": "https://medicines.health.europa.eu/veterinary/es/documents/download/afdf5dbf-d03d-4962-8341-65e696b375ce",
+      "reason": "UPD solicita comprobación humana; EMA PDF redirige a UPD. Identidad del envase también pendiente."
+    },
+    {
+      "name": "Credelio gatos 12/48 mg",
+      "status": "full_document_inaccessible",
+      "url": "https://medicines.health.europa.eu/veterinary/es/documents/download/d1da7cdc-115a-4074-83ab-a9bd6d246a42",
+      "reason": "UPD solicita comprobación humana; EMA PDF redirige a UPD. No habilitar a partir de extractos del buscador."
+    }
+  ]
+}

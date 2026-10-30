@@ -1,0 +1,252 @@
+{
+  "source": "Valores independientes transcritos/cotejados con RCM, con resultados de la política conservadora indicados por separado.",
+  "synulox": {
+    "expected": [
+      {
+        "weight": 0.6,
+        "ml": 0.15,
+        "mg": [
+          6,
+          1.5
+        ]
+      },
+      {
+        "weight": 0.8,
+        "ml": 0.2,
+        "mg": [
+          8,
+          2
+        ]
+      },
+      {
+        "weight": 1,
+        "ml": 0.25,
+        "mg": [
+          10,
+          2.5
+        ]
+      },
+      {
+        "weight": 1.2,
+        "ml": 0.3,
+        "mg": [
+          12,
+          3
+        ]
+      },
+      {
+        "weight": 2,
+        "ml": 0.5,
+        "mg": [
+          20,
+          5
+        ]
+      },
+      {
+        "weight": 2.2,
+        "ml": 0.55,
+        "mg": [
+          22,
+          5.5
+        ]
+      },
+      {
+        "weight": 3,
+        "ml": 0.75,
+        "mg": [
+          30,
+          7.5
+        ]
+      },
+      {
+        "weight": 3.2,
+        "ml": 0.8,
+        "mg": [
+          32,
+          8
+        ]
+      },
+      {
+        "weight": 4,
+        "ml": 1,
+        "mg": [
+          40,
+          10
+        ]
+      }
+    ],
+    "blockedWeights": [
+      0.4999,
+      0.5,
+      0.5001,
+      0.5999,
+      0.6001,
+      1.0001,
+      1.1,
+      1.9999,
+      2.0001,
+      2.1,
+      3.0001,
+      3.1,
+      4.0001,
+      5
+    ],
+    "reason": "Bloqueo por cobertura/rango/resolución del cuentagotas, no por contraindicación. No aproximar peso."
+  },
+  "doxy50": {
+    "expected": [
+      {
+        "weight": 0.75,
+        "units": 0.25,
+        "mg": 12.5
+      },
+      {
+        "weight": 1.25,
+        "units": 0.25,
+        "mg": 12.5
+      },
+      {
+        "weight": 1.250001,
+        "units": 0.5,
+        "mg": 25
+      },
+      {
+        "weight": 2.5,
+        "units": 0.5,
+        "mg": 25
+      },
+      {
+        "weight": 2.500001,
+        "units": 0.75,
+        "mg": 37.5
+      },
+      {
+        "weight": 3.75,
+        "units": 0.75,
+        "mg": 37.5
+      },
+      {
+        "weight": 3.750001,
+        "units": 1,
+        "mg": 50
+      },
+      {
+        "weight": 5,
+        "units": 1,
+        "mg": 50
+      },
+      {
+        "weight": 5.000001,
+        "units": 1.25,
+        "mg": 62.5
+      },
+      {
+        "weight": 6.25,
+        "units": 1.25,
+        "mg": 62.5
+      },
+      {
+        "weight": 6.250001,
+        "units": 1.5,
+        "mg": 75
+      },
+      {
+        "weight": 7.5,
+        "units": 1.5,
+        "mg": 75
+      },
+      {
+        "weight": 7.500001,
+        "units": 2,
+        "mg": 100
+      },
+      {
+        "weight": 10,
+        "units": 2,
+        "mg": 100
+      },
+      {
+        "weight": 10.000001,
+        "units": 2.5,
+        "mg": 125
+      },
+      {
+        "weight": 12.5,
+        "units": 2.5,
+        "mg": 125
+      },
+      {
+        "weight": 12.500001,
+        "units": 3,
+        "mg": 150
+      },
+      {
+        "weight": 15,
+        "units": 3,
+        "mg": 150
+      }
+    ],
+    "blockedWeights": [
+      0.749999,
+      15.000001,
+      20,
+      25
+    ]
+  },
+  "doxy200": {
+    "expected": [
+      {
+        "weight": 15.000001,
+        "units": 1,
+        "mg": 200
+      },
+      {
+        "weight": 20,
+        "units": 1,
+        "mg": 200
+      },
+      {
+        "weight": 25.000001,
+        "units": 1.5,
+        "mg": 300
+      },
+      {
+        "weight": 30,
+        "units": 1.5,
+        "mg": 300
+      },
+      {
+        "weight": 30.000001,
+        "units": 1.75,
+        "mg": 350
+      },
+      {
+        "weight": 35,
+        "units": 1.75,
+        "mg": 350
+      }
+    ],
+    "blockedWeights": [
+      15,
+      20.000001,
+      25,
+      35.000001,
+      40,
+      80
+    ]
+  },
+  "speciesAndDuration": [
+    "Doxy200 must reject cat in every rule.",
+    "Doxy50 dog indications must reject cat; cat indications must reject dog.",
+    "Doxy dog leptospirosis =14 days; cat C.felis =minimum28 days.",
+    "Doxy acute respiratory duration follows clinical cure +2–3 days, not automatic5–7-day course.",
+    "Doxy resultBasis must remain total diario; tests should catch any per-administration label."
+  ],
+  "safety": [
+    "Synulox renalSevereOliguria, resistant, allergy yes => blocked.",
+    "Synulox unknown clinical field => missing/blocked.",
+    "Doxy allergy yes => blocked; other concomitant yes => individual review blocked.",
+    "Doxy puppy yes => precaution; no numerical young-age cutoff invented.",
+    "Doxy hepatic/pregnancy/lactation yes => precaution, not universal contraindication."
+  ]
+}

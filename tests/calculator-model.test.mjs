@@ -1,0 +1,11 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
+import {searchProducts,presentationCoverage,compatibleRules} from '../dist/calculator-model.js';
+const read=n=>JSON.parse(fs.readFileSync(new URL('../dist/'+n+'.json',import.meta.url)));
+const products=read('inventory'),presentations=read('presentations'),rules=read('rules');
+const p=id=>presentations.find(p=>p.id===id);
+test('Búsqueda parcial, espacios, tildes y activo',()=>{for(const q of ['clava','CLAVASEPTIN','clava septin'])assert.ok(searchProducts(products,q).some(p=>p.id==='clavaseptin'));assert.ok(searchProducts(products,'ácido clavulánico').some(p=>p.id==='clavaseptin'));});
+test('Concentraciones compatibles con peso separadas de seguridad clínica',()=>{const patient={species:'perro',weight:10};assert.equal(presentationCoverage(p('clavaseptin-1'),rules,patient).status,'weight');assert.equal(presentationCoverage(p('clavaseptin-2'),rules,patient).status,'covered');assert.equal(presentationCoverage(p('clavaseptin-3'),rules,patient).status,'weight');});
+test('Desconocido, pendiente y especie no disponible no se mezclan',()=>{assert.equal(presentationCoverage(p('clavaseptin-1'),rules,{}).status,'missing');assert.equal(presentationCoverage(p('clavaseptin-2'),rules,{species:'gato',weight:10}).status,'species');assert.equal(presentationCoverage(p('prevomax-1'),rules,{species:'perro',weight:10}).status,'pending');});
+test('No se llena hueco de tabla ni fracción mediante selección de concentración',()=>{assert.equal(presentationCoverage(p('clavaseptin-1'),rules,{species:'perro',weight:2.05}).status,'weight');assert.equal(presentationCoverage(p('metrobactin-1'),rules,{species:'perro',weight:2.51}).status,'weight');});
+test('Las indicaciones se filtran por especie de la presentación',()=>{assert.equal(compatibleRules(rules,'clavaseptin-2','gato').length,0);assert.equal(compatibleRules(rules,'clavaseptin-2','perro').length,1);assert.ok(compatibleRules(rules,'doxybactin-1','gato').every(r=>r.species.includes('gato')));});
+test('Variantes de dictado no seleccionan automáticamente medicamento',()=>{for(const q of ['clave','clave septim','clavaseptim'])assert.ok(searchProducts(products,q).some(p=>p.id==='clavaseptin'));assert.ok(searchProducts(products,'meloxi').some(p=>p.id==='meloxidyl'));});

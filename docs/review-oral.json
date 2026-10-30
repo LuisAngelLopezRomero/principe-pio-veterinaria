@@ -1,0 +1,206 @@
+[
+  {
+    "productId": "cefaseptin",
+    "presentationLabels": [
+      "75 mg"
+    ],
+    "doseSummary": "15 mg de cefalexina/kg por toma; comprimido de75 mg divisible en mitades. Pauta estándar sin duplicación automática.",
+    "frequency": "Cada12 horas",
+    "duration": "Perros: urinaria14 días; pioderma superficial≥15 d; profunda≥28 d. Gatos heridas/abscesos5 d.",
+    "contraindications": [
+      "Alergia a cefalexina, cefalosporinas, betalactámicos o excipientes.",
+      "Resistencia a cefalosporinas o penicilinas.",
+      "No usar en cachorros/gatitos<1 kg ni gatitos<10 semanas."
+    ],
+    "limitations": [
+      "Renal: reducción individual sin fórmula oficial; gestación/lactancia requieren beneficio-riesgo.",
+      "Evitar bacteriostáticos, aminoglucósidos y furosemida.",
+      "Solo75 mg revisado: no extrapolar300 mg. Mitades exactas, sin redondeo."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3352%20ESP/FT_3352%20ESP.pdf",
+    "revision": "05/2026",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [
+      "cefaseptin-1"
+    ]
+  },
+  {
+    "productId": "clindaseptin",
+    "presentationLabels": [
+      "25 mg/ml · 22 ml"
+    ],
+    "doseSummary": "Heridas/abscesos:11 mg/kg cada24 h o5,5 mg/kg cada12 h. Perros osteomielitis:11 mg/kg cada12 h.",
+    "frequency": "Según pauta elegida, cada12 o24 h",
+    "duration": "Heridas/abscesos7–10 d; interrumpir sin respuesta4 d. Osteomielitis≥28 d; interrumpir sin respuesta14 d.",
+    "contraindications": [
+      "Alergia a clindamicina, lincomicina o excipientes.",
+      "No usar en conejos, hámsteres, cobayas, chinchillas, caballos o rumiantes."
+    ],
+    "limitations": [
+      "La ficha25 mg/ml aproxima volúmenes a0,25/0,5 ml/kg; equivalencia matemática sería0,22/0,44. Conversión automática pendiente de resolver.",
+      "Renal/hepático grave y recién nacidos requieren valoración; gestación/lactancia beneficio-riesgo.",
+      "Revisar adsorbentes/antiácidos, ciclosporina, bloqueantes neuromusculares, macrólidos/cloranfenicol y aminoglucósidos."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/2512%20ESP/FT_2512%20ESP.pdf",
+    "revision": "02/2026",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [
+      "clindaseptin-1"
+    ]
+  },
+  {
+    "productId": "milbeguard-duo",
+    "presentationLabels": [
+      "2,5/25 mg"
+    ],
+    "doseSummary": "Mínimo0,5 mg/kg milbemicina oxima+5 mg/kg prazicuantel. Tabla:[0,5–1]kg=½comprimido; >1–5 kg=1; >5–10 kg=2.",
+    "frequency": "Dosis única oral con/después de comida para pauta intestinal; otros parásitos requieren protocolos distintos.",
+    "duration": "Repetición según parásito/riesgo. Angiostrongylus: milbemicina semanal4 veces; Thelazia:2 tratamientos separados7 d.",
+    "contraindications": [
+      "Menores de2 semanas o peso<0,5 kg.",
+      "Hipersensibilidad a componentes."
+    ],
+    "limitations": [
+      "Requiere criba de dirofilariosis/microfilaremia y riesgo MDR1/Collie.",
+      "Renal/hepático grave o debilitado: beneficio-riesgo; gestación/lactancia permitidas.",
+      "No extrapolar a12,5/125 mg; comprobar otras lactonas macrocíclicas.",
+      "En menores de 4 semanas puede no ser necesario el combinado: infección por cestodos infrecuente; valorar necesidad."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/4231%20ESP/FT_4231%20ESP.pdf",
+    "revision": "03/2026",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [
+      "milbeguard-duo-1"
+    ]
+  },
+  {
+    "productId": "cestem-sabor",
+    "presentationLabels": [
+      "150 mg febantel + 50 mg pirantel (como embonato) + 50 mg prazicuantel · perros medianos y pequeños"
+    ],
+    "doseSummary": "15/5/5 mg/kg febantel/pirantel/prazicuantel. Tabla:[3–5]kg=½; >5–10=1; >10–15=1½; >15–20=2 comprimidos.",
+    "frequency": "Una administración oral",
+    "duration": "Rutina: dosis única. Infección masiva por nematodos: repetir14 d. Calendario posterior individualizado.",
+    "contraindications": [
+      "Hipersensibilidad.",
+      "No usar primeras4 semanas de gestación.",
+      "No simultanear piperazina."
+    ],
+    "limitations": [
+      "Inventario aún no identifica esta variante frente a otras presentaciones.",
+      "Especies autorizadas: perros≥3 kg. Lactancia permitida.",
+      "Revisar inductores CYP450 y fármacos colinérgicos.50 mg de pirantel no son50 mg de embonato."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/2170%20ESP/FT_2170%20ESP.pdf",
+    "revision": "10/2025",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": []
+  },
+  {
+    "productId": "nelio",
+    "presentationLabels": [
+      "5 mg"
+    ],
+    "doseSummary": "0,25–0,5 mg/kg de hidrocloruro de benazepril. Tabla estándar:[2,5–5]kg=¼; >5–10=½; >10–15=¾; >15–20=1 comprimido.",
+    "frequency": "Cada24 h, con o sin comida",
+    "duration": "Ilimitada según ficha; seguimiento clínico.",
+    "contraindications": [
+      "Hipotensión, hipovolemia, hiponatremia o insuficiencia renal aguda.",
+      "Bajo gasto por estenosis aórtica/pulmonar.",
+      "Gestación, lactancia o alergia."
+    ],
+    "limitations": [
+      "Solo perros con ICC.5 mg de sal equivalen4,6 mg benazepril.",
+      "La dosis doble requiere decisión veterinaria.",
+      "Faltan subtipos de cardiopatía y enfermedad renal en formulario; monitorizar función renal/electrolitos e interacciones con AINE/hipotensores."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/2095%20ESP/FT_2095%20ESP.pdf",
+    "revision": "03/2025",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [
+      "nelio-1"
+    ]
+  },
+  {
+    "productId": "zelys",
+    "presentationLabels": [
+      "1,25 mg · identificación por confirmar"
+    ],
+    "doseSummary": "0,2–0,6 mg/kg/día de pimobendán; preferida0,5 mg/kg/día repartida en0,25 mg/kg por toma. Mitades autorizadas.",
+    "frequency": "Dos tomas≈12 h separadas,≈1 h antes de comida",
+    "duration": "No cuantificada; seguimiento de función y morfología cardíaca.",
+    "contraindications": [
+      "Cardiomiopatía hipertrófica o alteraciones que impidan aumentar gasto cardíaco, p.ej.estenosis aórtica.",
+      "Insuficiencia hepática grave.",
+      "Hipersensibilidad."
+    ],
+    "limitations": [
+      "Perros con ICC por insuficiencia valvular o cardiomiopatía dilatada.",
+      "Precisa resolver identificación y subtipo cardíaco/hepático.",
+      "Controlar glucemia en diabéticos; gestación/lactancia beneficio-riesgo; interacciones: verapamilo, diltiazem, propranolol."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3612%20ESP/FT_3612%20ESP.pdf",
+    "revision": "05/2024",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [
+      "zelys-1"
+    ]
+  },
+  {
+    "productId": "prednicortone",
+    "presentationLabels": [
+      "5 mg"
+    ],
+    "doseSummary": "Inicial0,5–4 mg/kg/día prednisolona; elegir dosis eficaz mínima individualmente. Comprimido divisible en mitades/cuartos.",
+    "frequency": "Diaria inicialmente; perro mañana, gato noche. Retirada progresiva individual.",
+    "duration": "Individual; reducción en días alternos y/o mitad cada5–7 d según respuesta.",
+    "contraindications": [
+      "Infecciones virales/micóticas no controladas, diabetes, Cushing, osteoporosis.",
+      "Disfunción cardíaca/renal, úlceras corneales/GI, quemaduras, glaucoma.",
+      "Gestación, alergia o vacunas vivas concomitantes."
+    ],
+    "limitations": [
+      "Rango no permite seleccionar automáticamente una dosis ni duración.",
+      "Faltan contraindicaciones específicas en formulario.",
+      "No extrapolar a20 mg. Revisar vacunación en2 semanas, AINE, diuréticos, glucósidos y otras interacciones."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3313%20ESP/FT_3313%20ESP.pdf",
+    "revision": "03/2025",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [
+      "prednicortone-1"
+    ]
+  },
+  {
+    "productId": "tralieve",
+    "presentationLabels": [
+      "80 mg"
+    ],
+    "doseSummary": "2–4 mg/kg de hidrocloruro de tramadol por toma; máximo16 mg/kg/día.80 mg de sal equivalen70,3 mg tramadol; mitades/cuartos.",
+    "frequency": "Cada8 h o según dolor; intervalo mínimo6 h",
+    "duration": "Individual; revisión regular de analgesia y retirada gradual si tratamiento prolongado.",
+    "contraindications": [
+      "Epilepsia, alergia.",
+      "Uso concomitante de tricíclicos, IMAO o inhibidores recaptación serotonina."
+    ],
+    "limitations": [
+      "La tabla del documento ilustra4 mg/kg y no fija dosis universal.",
+      "Precisa elección clínica de dosis/intervalo y controles diarios. Renal requiere ajuste; vigilar hepática.",
+      "No extrapolar a20 mg. Gestación/lactancia beneficio-riesgo; revisar SNC, CYP450 y otros analgésicos."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3659%20ESP/FT_3659%20ESP.pdf",
+    "revision": "10/2024",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [
+      "tralieve-2"
+    ]
+  }
+]

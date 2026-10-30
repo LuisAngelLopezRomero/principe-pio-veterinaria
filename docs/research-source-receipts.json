@@ -1,0 +1,17 @@
+[
+  {
+    "file": "research_sources/firodyl62.pdf",
+    "sha256": "0487ff9f8b1e6468a56199f7349dc446997a8da974b4546711ea0c3adb7dcb01",
+    "bytes": 182185
+  },
+  {
+    "file": "research_sources/firodyl250.pdf",
+    "sha256": "a3bf41c8a550f15d1cd69e2e39e5bf61a7e5a2f6adf7bcd51d4dd2869de9bff0",
+    "bytes": 182965
+  },
+  {
+    "file": "research_sources/popandog.pdf",
+    "sha256": "62b680d5f76ef16839307ae11e33c0083114ba8272d73ec8717eff3584940973",
+    "bytes": 120533
+  }
+]

@@ -1,0 +1,2783 @@
+[
+  {
+    "id": "popandog-1-standard",
+    "presentationId": "popandog-1",
+    "status": "verified",
+    "enabled": true,
+    "species": [
+      "perro"
+    ],
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3169%20ESP/FT_3169%20ESP.pdf",
+      "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3169+ESP",
+      "reviewedAt": "2026-10-30",
+      "revision": "10/2026",
+      "sections": [
+        "2",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "3.5",
+        "3.7",
+        "3.8",
+        "3.9"
+      ],
+      "registryStatusObserved": "Autorizado",
+      "verification": "SPC completo consultado; tabla cotejada visualmente; identidad del envase de clínica pendiente",
+      "checkedAt": "2026-10-30",
+      "section": "2; 3.1–3.9"
+    },
+    "route": "oral",
+    "unit": "comprimidos",
+    "divisor": 2,
+    "components": [
+      {
+        "name": "prazicuantel",
+        "mgPerUnit": 50,
+        "doseMgKg": 5
+      },
+      {
+        "name": "embonato de pirantel",
+        "mgPerUnit": 144,
+        "doseMgKg": 14.4
+      },
+      {
+        "name": "fenbendazol",
+        "mgPerUnit": 200,
+        "doseMgKg": 20
+      }
+    ],
+    "table": [
+      {
+        "min": 2,
+        "max": 5,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 0.5,
+        "label": "[2–5] kg"
+      },
+      {
+        "min": 5,
+        "max": 10,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1,
+        "label": "(5–10] kg"
+      },
+      {
+        "min": 10,
+        "max": 20,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 2,
+        "label": "(10–20] kg"
+      },
+      {
+        "min": 20,
+        "max": 30,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 3,
+        "label": "(20–30] kg"
+      },
+      {
+        "min": 30,
+        "max": 40,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 4,
+        "label": "(30–40] kg"
+      }
+    ],
+    "indication": "Infección mixta por nematodos y cestodos",
+    "frequency": "Administración única",
+    "duration": "Repetir a los 14 días si helmintiasis diagnosticada; prevención individualizada",
+    "minAgeDays": 42,
+    "ageKind": "precaution",
+    "ageText": "En menores de 6 semanas el tratamiento puede ser innecesario; en cachorros requiere evaluación beneficio/riesgo.",
+    "ageSection": "3.5; 3.7",
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad: no usar.",
+        "section": "3.3"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "review",
+        "text": "Primeras 4 semanas: no usar; después: evaluación beneficio/riesgo. Precisar fase gestacional antes de calcular.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "precaution",
+        "text": "Lactancia: evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "Cachorros: evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "debilitated",
+        "kind": "precaution",
+        "text": "Caquexia, debilidad o infestación intensa: valoración veterinaria.",
+        "section": "3.5"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Comprobar interacciones: no combinar piperazina, organofosforados, dietilcarbamazina o morantel.",
+        "section": "3.3; 3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Confirmar parásitos/riesgo de coinfección y necesidad de combinación. Revisar caquexia y condición de cachorro. Fracción de blíster sobrante: desechar.",
+        "section": "3.4; 3.5; 3.7; 5.3"
+      }
+    ]
+  },
+  {
+    "id": "firodyl-1-standard",
+    "presentationId": "firodyl-1",
+    "status": "verified",
+    "enabled": true,
+    "species": [
+      "perro"
+    ],
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3849%20ESP/FT_3849%20ESP.pdf",
+      "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3849+ESP",
+      "reviewedAt": "2026-10-30",
+      "revision": "10/2025",
+      "sections": [
+        "2",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "3.5",
+        "3.7",
+        "3.8",
+        "3.9"
+      ],
+      "registryStatusObserved": "Autorizado",
+      "verification": "SPC completo consultado; tabla cotejada visualmente; identidad del envase de clínica pendiente",
+      "checkedAt": "2026-10-30",
+      "section": "2; 3.1–3.9"
+    },
+    "route": "oral",
+    "unit": "comprimidos",
+    "divisor": 4,
+    "components": [
+      {
+        "name": "firocoxib",
+        "mgPerUnit": 62.5,
+        "doseMgKg": 5
+      }
+    ],
+    "table": [
+      {
+        "min": 3.1,
+        "max": 3.1,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 0.25,
+        "label": "[3.1–3.1] kg"
+      },
+      {
+        "min": 3.2,
+        "max": 6.2,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 0.5,
+        "label": "[3.2–6.2] kg"
+      },
+      {
+        "min": 6.3,
+        "max": 9.3,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 0.75,
+        "label": "[6.3–9.3] kg"
+      },
+      {
+        "min": 9.4,
+        "max": 12.5,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1,
+        "label": "[9.4–12.5] kg"
+      },
+      {
+        "min": 12.6,
+        "max": 15.5,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1.25,
+        "label": "[12.6–15.5] kg"
+      },
+      {
+        "min": 15.6,
+        "max": 18.5,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1.5,
+        "label": "[15.6–18.5] kg"
+      },
+      {
+        "min": 18.6,
+        "max": 21.5,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1.75,
+        "label": "[18.6–21.5] kg"
+      }
+    ],
+    "indication": "Osteoartritis",
+    "frequency": "Cada 24 horas",
+    "duration": "Según respuesta; revisión veterinaria regular. 90 días es el límite de estudios, no una duración prescrita.",
+    "minAgeDays": 70,
+    "ageSection": "3.3",
+    "minWeight": 3,
+    "weightSection": "3.3",
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad: no usar.",
+        "section": "3.3"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "contraindication",
+        "text": "Gestación: no usar.",
+        "section": "3.3"
+      },
+      {
+        "condition": "lactation",
+        "kind": "contraindication",
+        "text": "Lactancia: no usar.",
+        "section": "3.3"
+      },
+      {
+        "condition": "bleeding",
+        "kind": "contraindication",
+        "text": "Hemorragia gastrointestinal, discrasia o trastorno hemorrágico: no usar.",
+        "section": "3.3"
+      },
+      {
+        "condition": "nsaid",
+        "kind": "contraindication",
+        "text": "No combinar con otros AINE.",
+        "section": "3.3"
+      },
+      {
+        "condition": "steroid",
+        "kind": "contraindication",
+        "text": "No combinar con corticosteroides.",
+        "section": "3.3"
+      },
+      {
+        "condition": "renal",
+        "kind": "precaution",
+        "text": "Insuficiencia renal, hepática o cardíaca: riesgo adicional; uso inevitable requiere vigilancia veterinaria cuidadosa.",
+        "section": "3.5"
+      },
+      {
+        "condition": "hepatic",
+        "kind": "precaution",
+        "text": "Insuficiencia renal, hepática o cardíaca: riesgo adicional; uso inevitable requiere vigilancia veterinaria cuidadosa.",
+        "section": "3.5"
+      },
+      {
+        "condition": "cardiac",
+        "kind": "precaution",
+        "text": "Insuficiencia renal, hepática o cardíaca: riesgo adicional; uso inevitable requiere vigilancia veterinaria cuidadosa.",
+        "section": "3.5"
+      },
+      {
+        "condition": "dehydration",
+        "kind": "review",
+        "text": "Evitar deshidratación, hipovolemia o hipotensión: riesgo renal.",
+        "section": "3.5"
+      },
+      {
+        "condition": "hypotension",
+        "kind": "review",
+        "text": "Evitar deshidratación, hipovolemia o hipotensión: riesgo renal.",
+        "section": "3.5"
+      },
+      {
+        "condition": "gi",
+        "kind": "review",
+        "text": "Distinguir hemorragia digestiva (contraindicación) de riesgo digestivo o intolerancia previa AINE (control estricto).",
+        "section": "3.3; 3.5"
+      },
+      {
+        "condition": "diuretic",
+        "kind": "precaution",
+        "text": "Diuréticos: control clínico por efecto sobre flujo renal.",
+        "section": "3.8"
+      },
+      {
+        "condition": "previousAntiInflammatory",
+        "kind": "review",
+        "text": "Antiinflamatorio previo: mínimo 24 h sin tratamiento y adaptación farmacocinética; no asumir suficiencia de 24 h.",
+        "section": "3.8"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Revisar IECA, nefrotóxicos (evitar), anestésicos y fármacos de alta unión proteica.",
+        "section": "3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Revisar bioquímica renal/hepática inicial y periódica. Suspender ante vómito, diarrea repetida, sangre fecal, anorexia, letargia, pérdida súbita de peso o alteración renal/hepática.",
+        "section": "3.5; 3.6"
+      }
+    ]
+  },
+  {
+    "id": "firodyl-2-standard",
+    "presentationId": "firodyl-2",
+    "status": "verified",
+    "enabled": true,
+    "species": [
+      "perro"
+    ],
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3850%20ESP/FT_3850%20ESP.pdf",
+      "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3850+ESP",
+      "reviewedAt": "2026-10-30",
+      "revision": "10/2025",
+      "sections": [
+        "2",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "3.5",
+        "3.7",
+        "3.8",
+        "3.9"
+      ],
+      "registryStatusObserved": "Autorizado",
+      "verification": "SPC completo consultado; tabla cotejada visualmente; identidad del envase de clínica pendiente",
+      "checkedAt": "2026-10-30",
+      "section": "2; 3.1–3.9"
+    },
+    "route": "oral",
+    "unit": "comprimidos",
+    "divisor": 4,
+    "components": [
+      {
+        "name": "firocoxib",
+        "mgPerUnit": 250,
+        "doseMgKg": 5
+      }
+    ],
+    "table": [
+      {
+        "min": 9.4,
+        "max": 12.5,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 0.25,
+        "label": "[9.4–12.5] kg"
+      },
+      {
+        "min": 21.6,
+        "max": 25,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 0.5,
+        "label": "[21.6–25] kg"
+      },
+      {
+        "min": 25.1,
+        "max": 37.5,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 0.75,
+        "label": "[25.1–37.5] kg"
+      },
+      {
+        "min": 37.6,
+        "max": 50,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1,
+        "label": "[37.6–50] kg"
+      },
+      {
+        "min": 50.1,
+        "max": 62.5,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1.25,
+        "label": "[50.1–62.5] kg"
+      },
+      {
+        "min": 62.6,
+        "max": 75,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1.5,
+        "label": "[62.6–75] kg"
+      },
+      {
+        "min": 75.1,
+        "max": 87.5,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1.75,
+        "label": "[75.1–87.5] kg"
+      },
+      {
+        "min": 87.6,
+        "max": 100,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 2,
+        "label": "[87.6–100] kg"
+      }
+    ],
+    "indication": "Osteoartritis",
+    "frequency": "Cada 24 horas",
+    "duration": "Según respuesta; revisión veterinaria regular. 90 días es el límite de estudios, no una duración prescrita.",
+    "minAgeDays": 70,
+    "ageSection": "3.3",
+    "minWeight": 3,
+    "weightSection": "3.3",
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad: no usar.",
+        "section": "3.3"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "contraindication",
+        "text": "Gestación: no usar.",
+        "section": "3.3"
+      },
+      {
+        "condition": "lactation",
+        "kind": "contraindication",
+        "text": "Lactancia: no usar.",
+        "section": "3.3"
+      },
+      {
+        "condition": "bleeding",
+        "kind": "contraindication",
+        "text": "Hemorragia gastrointestinal, discrasia o trastorno hemorrágico: no usar.",
+        "section": "3.3"
+      },
+      {
+        "condition": "nsaid",
+        "kind": "contraindication",
+        "text": "No combinar con otros AINE.",
+        "section": "3.3"
+      },
+      {
+        "condition": "steroid",
+        "kind": "contraindication",
+        "text": "No combinar con corticosteroides.",
+        "section": "3.3"
+      },
+      {
+        "condition": "renal",
+        "kind": "precaution",
+        "text": "Insuficiencia renal, hepática o cardíaca: riesgo adicional; uso inevitable requiere vigilancia veterinaria cuidadosa.",
+        "section": "3.5"
+      },
+      {
+        "condition": "hepatic",
+        "kind": "precaution",
+        "text": "Insuficiencia renal, hepática o cardíaca: riesgo adicional; uso inevitable requiere vigilancia veterinaria cuidadosa.",
+        "section": "3.5"
+      },
+      {
+        "condition": "cardiac",
+        "kind": "precaution",
+        "text": "Insuficiencia renal, hepática o cardíaca: riesgo adicional; uso inevitable requiere vigilancia veterinaria cuidadosa.",
+        "section": "3.5"
+      },
+      {
+        "condition": "dehydration",
+        "kind": "review",
+        "text": "Evitar deshidratación, hipovolemia o hipotensión: riesgo renal.",
+        "section": "3.5"
+      },
+      {
+        "condition": "hypotension",
+        "kind": "review",
+        "text": "Evitar deshidratación, hipovolemia o hipotensión: riesgo renal.",
+        "section": "3.5"
+      },
+      {
+        "condition": "gi",
+        "kind": "review",
+        "text": "Distinguir hemorragia digestiva (contraindicación) de riesgo digestivo o intolerancia previa AINE (control estricto).",
+        "section": "3.3; 3.5"
+      },
+      {
+        "condition": "diuretic",
+        "kind": "precaution",
+        "text": "Diuréticos: control clínico por efecto sobre flujo renal.",
+        "section": "3.8"
+      },
+      {
+        "condition": "previousAntiInflammatory",
+        "kind": "review",
+        "text": "Antiinflamatorio previo: mínimo 24 h sin tratamiento y adaptación farmacocinética; no asumir suficiencia de 24 h.",
+        "section": "3.8"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Revisar IECA, nefrotóxicos (evitar), anestésicos y fármacos de alta unión proteica.",
+        "section": "3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Revisar bioquímica renal/hepática inicial y periódica. Suspender ante vómito, diarrea repetida, sangre fecal, anorexia, letargia, pérdida súbita de peso o alteración renal/hepática.",
+        "section": "3.5; 3.6"
+      }
+    ]
+  },
+  {
+    "id": "clavaseptin-50-standard",
+    "presentationId": "clavaseptin-1",
+    "name": "Clavaseptin 50 mg",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/1662%20ESP/FT_1662%20ESP.pdf",
+      "checkedAt": "2026-10-30",
+      "revision": "12/2024",
+      "section": "2; 3.1–3.10; 5.2; 9",
+      "authority": "AEMPS / CIMAvet",
+      "localFile": "source-pdfs/clavaseptin.pdf",
+      "sha256": "48ae3004440a2abaa991a9934d71546de1bbfdd1fe49962a29037b2ac8dd3406"
+    },
+    "species": [
+      "perro",
+      "gato"
+    ],
+    "indication": "Infección bacteriana sensible en piel, aparato respiratorio, mucosa oral, urinario o digestivo; confirmar agente y localización en sección 3.2",
+    "route": "Oral",
+    "frequency": "Cada 12 horas",
+    "duration": "Pauta estándar: 5–7 días. Casos crónicos/recurrentes: reevaluar; el RCM contempla 2–4 semanas, fuera de esta regla estándar.",
+    "unit": "comprimidos",
+    "divisor": 2,
+    "resultBasis": "por administración",
+    "components": [
+      {
+        "name": "Amoxicilina",
+        "mgPerUnit": 40.0,
+        "doseMgKg": 10
+      },
+      {
+        "name": "Ácido clavulánico",
+        "mgPerUnit": 10.0,
+        "doseMgKg": 2.5
+      }
+    ],
+    "table": [
+      {
+        "min": 1,
+        "max": 2,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 0.5,
+        "label": "[1–2] kg"
+      },
+      {
+        "min": 2.1,
+        "max": 4,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1,
+        "label": "[2.1–4] kg"
+      },
+      {
+        "min": 4.1,
+        "max": 6,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1.5,
+        "label": "[4.1–6] kg"
+      },
+      {
+        "min": 6.1,
+        "max": 8,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 2,
+        "label": "[6.1–8] kg"
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad a penicilinas, betalactámicos o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "renalSevereOliguria",
+        "kind": "contraindication",
+        "text": "Disfunción renal grave con anuria u oliguria.",
+        "section": "3.3"
+      },
+      {
+        "condition": "resistant",
+        "kind": "contraindication",
+        "text": "Resistencia conocida a amoxicilina/clavulánico o sospecha/confirmación de SARM/SPRM: no usar.",
+        "section": "3.4"
+      },
+      {
+        "condition": "renal",
+        "kind": "review",
+        "text": "Insuficiencia renal/hepática: el RCM exige evaluar beneficio/riesgo y posología individual. La aceptación general de precauciones no valida la pauta estándar.",
+        "section": "3.5"
+      },
+      {
+        "condition": "hepatic",
+        "kind": "review",
+        "text": "Insuficiencia renal/hepática: el RCM exige evaluar beneficio/riesgo y posología individual. La aceptación general de precauciones no valida la pauta estándar.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; valorar beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; valorar beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Revisar macrólidos, tetraciclinas, sulfonamidas, cloranfenicol y aminoglucósidos antes de calcular.",
+        "section": "3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "AMEG C: confirmar sensibilidad o fundamento epidemiológico y valorar alternativa de menor riesgo eficaz. Esta regla no duplica dosis en casos graves.",
+        "section": "3.5; 3.9"
+      }
+    ],
+    "notes": [
+      "Los huecos entre bandas oficiales se conservan sin interpolar.",
+      "No hay umbral numérico de edad en el RCM revisado; no implica seguridad universal."
+    ],
+    "regulatoryRecord": {
+      "url": "https://medicines.health.europa.eu/veterinary/es/600000033752",
+      "status": "Autorizado según ficha oficial recuperada/indexada",
+      "checkedAt": "2026-10-30",
+      "note": "Consulta por buscador oficial; algunas aperturas posteriores fallan o requieren JavaScript. No acredita disponibilidad de un envase concreto."
+    }
+  },
+  {
+    "id": "clavaseptin-250-standard",
+    "presentationId": "clavaseptin-2",
+    "name": "Clavaseptin 250 mg",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/1663%20ESP/FT_1663%20ESP.pdf",
+      "checkedAt": "2026-10-30",
+      "revision": "12/2024",
+      "section": "2; 3.1–3.10; 5.2; 9",
+      "authority": "AEMPS / CIMAvet",
+      "localFile": "source-pdfs/clavaseptin250.pdf",
+      "sha256": "36f5cb093ea73d15a5eee594f100a2d84ae6ef10db146133191157ec67f8273a"
+    },
+    "species": [
+      "perro"
+    ],
+    "indication": "Infección bacteriana sensible en piel, aparato respiratorio, mucosa oral, urinario o digestivo; confirmar agente y localización en sección 3.2",
+    "route": "Oral",
+    "frequency": "Cada 12 horas",
+    "duration": "Pauta estándar: 5–7 días. Casos crónicos/recurrentes: reevaluar; el RCM contempla 2–4 semanas, fuera de esta regla estándar.",
+    "unit": "comprimidos",
+    "divisor": 2,
+    "resultBasis": "por administración",
+    "components": [
+      {
+        "name": "Amoxicilina",
+        "mgPerUnit": 200.0,
+        "doseMgKg": 10
+      },
+      {
+        "name": "Ácido clavulánico",
+        "mgPerUnit": 50.0,
+        "doseMgKg": 2.5
+      }
+    ],
+    "table": [
+      {
+        "min": 8.1,
+        "max": 10,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 0.5,
+        "label": "[8.1–10] kg"
+      },
+      {
+        "min": 10.1,
+        "max": 20,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1,
+        "label": "[10.1–20] kg"
+      },
+      {
+        "min": 20.1,
+        "max": 30,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1.5,
+        "label": "[20.1–30] kg"
+      },
+      {
+        "min": 30.1,
+        "max": 40,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 2,
+        "label": "[30.1–40] kg"
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad a penicilinas, betalactámicos o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "renalSevereOliguria",
+        "kind": "contraindication",
+        "text": "Disfunción renal grave con anuria u oliguria.",
+        "section": "3.3"
+      },
+      {
+        "condition": "resistant",
+        "kind": "contraindication",
+        "text": "Resistencia conocida a amoxicilina/clavulánico o sospecha/confirmación de SARM/SPRM: no usar.",
+        "section": "3.4"
+      },
+      {
+        "condition": "renal",
+        "kind": "review",
+        "text": "Insuficiencia renal/hepática: el RCM exige evaluar beneficio/riesgo y posología individual. La aceptación general de precauciones no valida la pauta estándar.",
+        "section": "3.5"
+      },
+      {
+        "condition": "hepatic",
+        "kind": "review",
+        "text": "Insuficiencia renal/hepática: el RCM exige evaluar beneficio/riesgo y posología individual. La aceptación general de precauciones no valida la pauta estándar.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; valorar beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; valorar beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Revisar macrólidos, tetraciclinas, sulfonamidas, cloranfenicol y aminoglucósidos antes de calcular.",
+        "section": "3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "AMEG C: confirmar sensibilidad o fundamento epidemiológico y valorar alternativa de menor riesgo eficaz. Esta regla no duplica dosis en casos graves.",
+        "section": "3.5; 3.9"
+      }
+    ],
+    "notes": [
+      "Los huecos entre bandas oficiales se conservan sin interpolar.",
+      "No hay umbral numérico de edad en el RCM revisado; no implica seguridad universal."
+    ],
+    "regulatoryRecord": {
+      "url": "https://medicines.health.europa.eu/veterinary/es/600000033777",
+      "status": "Autorizado según ficha oficial recuperada/indexada",
+      "checkedAt": "2026-10-30",
+      "note": "Consulta por buscador oficial; algunas aperturas posteriores fallan o requieren JavaScript. No acredita disponibilidad de un envase concreto."
+    }
+  },
+  {
+    "id": "clavaseptin-500-standard",
+    "presentationId": "clavaseptin-3",
+    "name": "Clavaseptin 500 mg",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/1664%20ESP/FT_1664%20ESP.pdf",
+      "checkedAt": "2026-10-30",
+      "revision": "12/2024",
+      "section": "2; 3.1–3.10; 5.2; 9",
+      "authority": "AEMPS / CIMAvet",
+      "localFile": "source-pdfs/clavaseptin500.pdf",
+      "sha256": "31bb93e52195124d1e5e8b454c261c79ba8269861725288fb364310aad250e67"
+    },
+    "species": [
+      "perro"
+    ],
+    "indication": "Infección bacteriana sensible en piel, aparato respiratorio, mucosa oral, urinario o digestivo; confirmar agente y localización en sección 3.2",
+    "route": "Oral",
+    "frequency": "Cada 12 horas",
+    "duration": "Pauta estándar: 5–7 días. Casos crónicos/recurrentes: reevaluar; el RCM contempla 2–4 semanas, fuera de esta regla estándar.",
+    "unit": "comprimidos",
+    "divisor": 2,
+    "resultBasis": "por administración",
+    "components": [
+      {
+        "name": "Amoxicilina",
+        "mgPerUnit": 400.0,
+        "doseMgKg": 10
+      },
+      {
+        "name": "Ácido clavulánico",
+        "mgPerUnit": 100.0,
+        "doseMgKg": 2.5
+      }
+    ],
+    "table": [
+      {
+        "min": 30.1,
+        "max": 40,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1,
+        "label": "[30.1–40] kg"
+      },
+      {
+        "min": 40.1,
+        "max": 60,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1.5,
+        "label": "[40.1–60] kg"
+      },
+      {
+        "min": 60.1,
+        "max": 80,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 2,
+        "label": "[60.1–80] kg"
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad a penicilinas, betalactámicos o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "renalSevereOliguria",
+        "kind": "contraindication",
+        "text": "Disfunción renal grave con anuria u oliguria.",
+        "section": "3.3"
+      },
+      {
+        "condition": "resistant",
+        "kind": "contraindication",
+        "text": "Resistencia conocida a amoxicilina/clavulánico o sospecha/confirmación de SARM/SPRM: no usar.",
+        "section": "3.4"
+      },
+      {
+        "condition": "renal",
+        "kind": "review",
+        "text": "Insuficiencia renal/hepática: el RCM exige evaluar beneficio/riesgo y posología individual. La aceptación general de precauciones no valida la pauta estándar.",
+        "section": "3.5"
+      },
+      {
+        "condition": "hepatic",
+        "kind": "review",
+        "text": "Insuficiencia renal/hepática: el RCM exige evaluar beneficio/riesgo y posología individual. La aceptación general de precauciones no valida la pauta estándar.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; valorar beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; valorar beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Revisar macrólidos, tetraciclinas, sulfonamidas, cloranfenicol y aminoglucósidos antes de calcular.",
+        "section": "3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "AMEG C: confirmar sensibilidad o fundamento epidemiológico y valorar alternativa de menor riesgo eficaz. Esta regla no duplica dosis en casos graves.",
+        "section": "3.5; 3.9"
+      }
+    ],
+    "notes": [
+      "Los huecos entre bandas oficiales se conservan sin interpolar.",
+      "No hay umbral numérico de edad en el RCM revisado; no implica seguridad universal."
+    ],
+    "regulatoryRecord": {
+      "url": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=1664+ESP",
+      "status": "Autorizado según ficha oficial recuperada/indexada",
+      "checkedAt": "2026-10-30",
+      "note": "Consulta por buscador oficial; algunas aperturas posteriores fallan o requieren JavaScript. No acredita disponibilidad de un envase concreto."
+    }
+  },
+  {
+    "id": "metrobactin-250-bid",
+    "presentationId": "metrobactin-1",
+    "name": "Metrobactin 250 mg",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3393%20ESP/FT_3393%20ESP.pdf",
+      "checkedAt": "2026-10-30",
+      "revision": "12/2024",
+      "section": "2; 3.1–3.10; 5.2; 9",
+      "authority": "AEMPS / CIMAvet",
+      "localFile": "source-pdfs/metrobactin.pdf",
+      "sha256": "b312711596a796285e9d13b2e0fc5140a4d45ab978bf55c172ba3701f200fa8f"
+    },
+    "species": [
+      "perro",
+      "gato"
+    ],
+    "indication": "Infección gastrointestinal por Giardia/Clostridium o infección urogenital, oral, faríngea o cutánea por anaerobios obligados",
+    "route": "Oral",
+    "frequency": "25 mg/kg cada 12 horas (50 mg/kg/día)",
+    "duration": "5–7 días",
+    "unit": "comprimidos",
+    "divisor": 4,
+    "doseMgKg": 25,
+    "resultBasis": "por administración",
+    "components": [
+      {
+        "name": "Metronidazol",
+        "mgPerUnit": 250,
+        "doseMgKg": 25
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "hepatic",
+        "kind": "contraindication",
+        "text": "Trastornos hepáticos: no usar.",
+        "section": "3.3"
+      },
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad a metronidazol o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "review",
+        "text": "El RCM no recomienda su uso durante gestación. Requiere valoración excepcional; no se habilita mediante aceptación genérica de precauciones.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "review",
+        "text": "El RCM no recomienda su uso durante lactancia. Requiere valoración excepcional; no se habilita mediante aceptación genérica de precauciones.",
+        "section": "3.7"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Revisar fenitoína, ciclosporina, warfarina, cimetidina y fenobarbital.",
+        "section": "3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Confirmar indicación y sensibilidad cuando sea posible; no es tratamiento automático para cualquier diarrea. Suspender y valorar si aparecen signos neurológicos.",
+        "section": "3.5; 3.10"
+      }
+    ],
+    "notes": [
+      "Se implementa la alternativa expresamente autorizada de dividir la dosis diaria en dos tomas iguales.",
+      "Sin tabla de peso: cálculo únicamente si coincide exactamente con cuartos autorizados; no redondear.",
+      "No hay umbral numérico de edad en este RCM."
+    ],
+    "regulatoryRecord": {
+      "url": "https://medicines.health.europa.eu/veterinary/es/600000035040",
+      "status": "Autorizado según ficha oficial recuperada/indexada",
+      "checkedAt": "2026-10-30",
+      "note": "Consulta por buscador oficial; algunas aperturas posteriores fallan o requieren JavaScript. No acredita disponibilidad de un envase concreto."
+    }
+  },
+  {
+    "id": "metrobactin-500-bid",
+    "presentationId": "metrobactin-2",
+    "name": "Metrobactin 500 mg",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3395%20ESP/FT_3395%20ESP.pdf",
+      "checkedAt": "2026-10-30",
+      "revision": "12/2024",
+      "section": "2; 3.1–3.10; 5.2; 9",
+      "authority": "AEMPS / CIMAvet",
+      "localFile": "source-pdfs/metrobactin500.pdf",
+      "sha256": "c072f0c9232ae9ee21e305334024bdcc9b38acac99d61bbf0a4859a934d5ee15"
+    },
+    "species": [
+      "perro",
+      "gato"
+    ],
+    "indication": "Infección gastrointestinal por Giardia/Clostridium o infección urogenital, oral, faríngea o cutánea por anaerobios obligados",
+    "route": "Oral",
+    "frequency": "25 mg/kg cada 12 horas (50 mg/kg/día)",
+    "duration": "5–7 días",
+    "unit": "comprimidos",
+    "divisor": 4,
+    "doseMgKg": 25,
+    "resultBasis": "por administración",
+    "components": [
+      {
+        "name": "Metronidazol",
+        "mgPerUnit": 500,
+        "doseMgKg": 25
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "hepatic",
+        "kind": "contraindication",
+        "text": "Trastornos hepáticos: no usar.",
+        "section": "3.3"
+      },
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad a metronidazol o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "review",
+        "text": "El RCM no recomienda su uso durante gestación. Requiere valoración excepcional; no se habilita mediante aceptación genérica de precauciones.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "review",
+        "text": "El RCM no recomienda su uso durante lactancia. Requiere valoración excepcional; no se habilita mediante aceptación genérica de precauciones.",
+        "section": "3.7"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Revisar fenitoína, ciclosporina, warfarina, cimetidina y fenobarbital.",
+        "section": "3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Confirmar indicación y sensibilidad cuando sea posible; no es tratamiento automático para cualquier diarrea. Suspender y valorar si aparecen signos neurológicos.",
+        "section": "3.5; 3.10"
+      }
+    ],
+    "notes": [
+      "Se implementa la alternativa expresamente autorizada de dividir la dosis diaria en dos tomas iguales.",
+      "Sin tabla de peso: cálculo únicamente si coincide exactamente con cuartos autorizados; no redondear.",
+      "No hay umbral numérico de edad en este RCM."
+    ],
+    "regulatoryRecord": {
+      "url": "https://medicines.health.europa.eu/veterinary/es/600000035018",
+      "status": "Autorizado según ficha oficial recuperada/indexada",
+      "checkedAt": "2026-10-30",
+      "note": "Consulta por buscador oficial; algunas aperturas posteriores fallan o requieren JavaScript. No acredita disponibilidad de un envase concreto."
+    }
+  },
+  {
+    "id": "doxybactin-50-dog-respiratory-acute",
+    "presentationId": "doxybactin-1",
+    "name": "Doxybactin 50 mg",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3578%20ESP/FT_3578%20ESP.pdf",
+      "checkedAt": "2026-10-30",
+      "revision": "09/2025",
+      "section": "2; 3.1–3.10; 9. Tabla: página 4; pauta y duración: 3.9.",
+      "authority": "AEMPS / CIMAvet",
+      "localFile": "source-pdfs/doxybactin.pdf",
+      "sha256": "0766910e98c9313826445790e077aa394cdab5e16946b43c88a66ff8fe9b93ee"
+    },
+    "species": [
+      "perro"
+    ],
+    "indication": "Perro: rinitis por B. bronchiseptica/Pasteurella o bronconeumonía por Bordetella/Pasteurella, infección aguda",
+    "route": "oral · administrar con alimentos",
+    "frequency": "10 mg/kg/día como referencia; prevalece la tabla diaria oficial. No dividir automáticamente en tomas.",
+    "duration": "Continuar 2–3 días después de la curación clínica. La respuesta habitual aparece tras 5–7 días; no equivale a duración fija. Excluye casos crónicos/resistentes.",
+    "unit": "comprimidos",
+    "divisor": 4,
+    "resultBasis": "total diario",
+    "components": [
+      {
+        "name": "Doxiciclina (como hiclato)",
+        "mgPerUnit": 50,
+        "doseMgKg": 10
+      }
+    ],
+    "table": [
+      {
+        "min": 0.75,
+        "max": 1.25,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 0.25,
+        "label": "[0.75–1.25] kg"
+      },
+      {
+        "min": 1.25,
+        "max": 2.5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 0.5,
+        "label": "(1.25–2.5] kg"
+      },
+      {
+        "min": 2.5,
+        "max": 3.75,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 0.75,
+        "label": "(2.5–3.75] kg"
+      },
+      {
+        "min": 3.75,
+        "max": 5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1,
+        "label": "(3.75–5] kg"
+      },
+      {
+        "min": 5,
+        "max": 6.25,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1.25,
+        "label": "(5–6.25] kg"
+      },
+      {
+        "min": 6.25,
+        "max": 7.5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1.5,
+        "label": "(6.25–7.5] kg"
+      },
+      {
+        "min": 7.5,
+        "max": 10,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 2,
+        "label": "(7.5–10] kg"
+      },
+      {
+        "min": 10,
+        "max": 12.5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 2.5,
+        "label": "(10–12.5] kg"
+      },
+      {
+        "min": 12.5,
+        "max": 15,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 3,
+        "label": "(12.5–15] kg"
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad a tetraciclinas o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "hepatic",
+        "kind": "precaution",
+        "text": "Especial precaución por posibles aumentos de enzimas hepáticas.",
+        "section": "3.5"
+      },
+      {
+        "condition": "gi",
+        "kind": "precaution",
+        "text": "Disfagia o vómitos: riesgo de lesión esofágica; administrar con alimentos.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; evaluación beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; evaluación beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "No simultanear con penicilinas/cefalosporinas; separar adsorbentes, antiácidos y sales de hierro al menos 3 horas antes/después. Revisar fenobarbital/fenitoína.",
+        "section": "3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "En jóvenes, valorar desarrollo dental y óseo sin inventar límite de edad. Confirmar sensibilidad/fundamento epidemiológico.",
+        "section": "3.5"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "Animales jóvenes: valorar desarrollo dental/óseo; no existe un umbral numérico de edad en este RCM.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Administrar los comprimidos con alimentos para reducir irritación esofágica y efectos gastrointestinales.",
+        "section": "3.5; 3.9"
+      }
+    ],
+    "notes": [
+      "Pictogramas cotejados visualmente en tabla oficial de 50 mg.",
+      "No se ha extrapolado la columna de 50 mg a bandas reservadas a 200/400 mg o combinaciones."
+    ],
+    "regulatoryRecord": {
+      "url": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3578+ESP",
+      "status": "Autorizado según ficha oficial recuperada/indexada",
+      "checkedAt": "2026-10-30",
+      "note": "Consulta por buscador oficial; algunas aperturas posteriores fallan o requieren JavaScript. No acredita disponibilidad de un envase concreto."
+    }
+  },
+  {
+    "id": "doxybactin-50-dog-leptospirosis",
+    "presentationId": "doxybactin-1",
+    "name": "Doxybactin 50 mg",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3578%20ESP/FT_3578%20ESP.pdf",
+      "checkedAt": "2026-10-30",
+      "revision": "09/2025",
+      "section": "2; 3.1–3.10; 9. Tabla: página 4; pauta y duración: 3.9.",
+      "authority": "AEMPS / CIMAvet",
+      "localFile": "source-pdfs/doxybactin.pdf",
+      "sha256": "0766910e98c9313826445790e077aa394cdab5e16946b43c88a66ff8fe9b93ee"
+    },
+    "species": [
+      "perro"
+    ],
+    "indication": "Perro: nefritis intersticial por Leptospira sensible a doxiciclina",
+    "route": "oral · administrar con alimentos",
+    "frequency": "10 mg/kg/día como referencia; prevalece la tabla diaria oficial. No dividir automáticamente en tomas.",
+    "duration": "14 días",
+    "unit": "comprimidos",
+    "divisor": 4,
+    "resultBasis": "total diario",
+    "components": [
+      {
+        "name": "Doxiciclina (como hiclato)",
+        "mgPerUnit": 50,
+        "doseMgKg": 10
+      }
+    ],
+    "table": [
+      {
+        "min": 0.75,
+        "max": 1.25,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 0.25,
+        "label": "[0.75–1.25] kg"
+      },
+      {
+        "min": 1.25,
+        "max": 2.5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 0.5,
+        "label": "(1.25–2.5] kg"
+      },
+      {
+        "min": 2.5,
+        "max": 3.75,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 0.75,
+        "label": "(2.5–3.75] kg"
+      },
+      {
+        "min": 3.75,
+        "max": 5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1,
+        "label": "(3.75–5] kg"
+      },
+      {
+        "min": 5,
+        "max": 6.25,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1.25,
+        "label": "(5–6.25] kg"
+      },
+      {
+        "min": 6.25,
+        "max": 7.5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1.5,
+        "label": "(6.25–7.5] kg"
+      },
+      {
+        "min": 7.5,
+        "max": 10,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 2,
+        "label": "(7.5–10] kg"
+      },
+      {
+        "min": 10,
+        "max": 12.5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 2.5,
+        "label": "(10–12.5] kg"
+      },
+      {
+        "min": 12.5,
+        "max": 15,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 3,
+        "label": "(12.5–15] kg"
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad a tetraciclinas o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "hepatic",
+        "kind": "precaution",
+        "text": "Especial precaución por posibles aumentos de enzimas hepáticas.",
+        "section": "3.5"
+      },
+      {
+        "condition": "gi",
+        "kind": "precaution",
+        "text": "Disfagia o vómitos: riesgo de lesión esofágica; administrar con alimentos.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; evaluación beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; evaluación beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "No simultanear con penicilinas/cefalosporinas; separar adsorbentes, antiácidos y sales de hierro al menos 3 horas antes/después. Revisar fenobarbital/fenitoína.",
+        "section": "3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "En jóvenes, valorar desarrollo dental y óseo sin inventar límite de edad. Confirmar sensibilidad/fundamento epidemiológico.",
+        "section": "3.5"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "Animales jóvenes: valorar desarrollo dental/óseo; no existe un umbral numérico de edad en este RCM.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Administrar los comprimidos con alimentos para reducir irritación esofágica y efectos gastrointestinales.",
+        "section": "3.5; 3.9"
+      }
+    ],
+    "notes": [
+      "Pictogramas cotejados visualmente en tabla oficial de 50 mg.",
+      "No se ha extrapolado la columna de 50 mg a bandas reservadas a 200/400 mg o combinaciones."
+    ],
+    "regulatoryRecord": {
+      "url": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3578+ESP",
+      "status": "Autorizado según ficha oficial recuperada/indexada",
+      "checkedAt": "2026-10-30",
+      "note": "Consulta por buscador oficial; algunas aperturas posteriores fallan o requieren JavaScript. No acredita disponibilidad de un envase concreto."
+    }
+  },
+  {
+    "id": "doxybactin-50-cat-respiratory-acute",
+    "presentationId": "doxybactin-1",
+    "name": "Doxybactin 50 mg",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3578%20ESP/FT_3578%20ESP.pdf",
+      "checkedAt": "2026-10-30",
+      "revision": "09/2025",
+      "section": "2; 3.1–3.10; 9. Tabla: página 4; pauta y duración: 3.9.",
+      "authority": "AEMPS / CIMAvet",
+      "localFile": "source-pdfs/doxybactin.pdf",
+      "sha256": "0766910e98c9313826445790e077aa394cdab5e16946b43c88a66ff8fe9b93ee"
+    },
+    "species": [
+      "gato"
+    ],
+    "indication": "Gato: infección respiratoria aguda por B. bronchiseptica o Pasteurella sensible a doxiciclina",
+    "route": "oral · administrar con alimentos",
+    "frequency": "10 mg/kg/día como referencia; prevalece la tabla diaria oficial. No dividir automáticamente en tomas.",
+    "duration": "Continuar 2–3 días después de la curación clínica. Respuesta habitual tras 5–7 días; no equivale a duración fija. No incluye C. felis ni casos crónicos/resistentes.",
+    "unit": "comprimidos",
+    "divisor": 4,
+    "resultBasis": "total diario",
+    "components": [
+      {
+        "name": "Doxiciclina (como hiclato)",
+        "mgPerUnit": 50,
+        "doseMgKg": 10
+      }
+    ],
+    "table": [
+      {
+        "min": 0.75,
+        "max": 1.25,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 0.25,
+        "label": "[0.75–1.25] kg"
+      },
+      {
+        "min": 1.25,
+        "max": 2.5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 0.5,
+        "label": "(1.25–2.5] kg"
+      },
+      {
+        "min": 2.5,
+        "max": 3.75,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 0.75,
+        "label": "(2.5–3.75] kg"
+      },
+      {
+        "min": 3.75,
+        "max": 5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1,
+        "label": "(3.75–5] kg"
+      },
+      {
+        "min": 5,
+        "max": 6.25,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1.25,
+        "label": "(5–6.25] kg"
+      },
+      {
+        "min": 6.25,
+        "max": 7.5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1.5,
+        "label": "(6.25–7.5] kg"
+      },
+      {
+        "min": 7.5,
+        "max": 10,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 2,
+        "label": "(7.5–10] kg"
+      },
+      {
+        "min": 10,
+        "max": 12.5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 2.5,
+        "label": "(10–12.5] kg"
+      },
+      {
+        "min": 12.5,
+        "max": 15,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 3,
+        "label": "(12.5–15] kg"
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad a tetraciclinas o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "hepatic",
+        "kind": "precaution",
+        "text": "Especial precaución por posibles aumentos de enzimas hepáticas.",
+        "section": "3.5"
+      },
+      {
+        "condition": "gi",
+        "kind": "precaution",
+        "text": "Disfagia o vómitos: riesgo de lesión esofágica; administrar con alimentos.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; evaluación beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; evaluación beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "No simultanear con penicilinas/cefalosporinas; separar adsorbentes, antiácidos y sales de hierro al menos 3 horas antes/después. Revisar fenobarbital/fenitoína.",
+        "section": "3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "En jóvenes, valorar desarrollo dental y óseo sin inventar límite de edad. Confirmar sensibilidad/fundamento epidemiológico.",
+        "section": "3.5"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "Animales jóvenes: valorar desarrollo dental/óseo; no existe un umbral numérico de edad en este RCM.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Administrar los comprimidos con alimentos para reducir irritación esofágica y efectos gastrointestinales.",
+        "section": "3.5; 3.9"
+      }
+    ],
+    "notes": [
+      "Pictogramas cotejados visualmente en tabla oficial de 50 mg.",
+      "No se ha extrapolado la columna de 50 mg a bandas reservadas a 200/400 mg o combinaciones."
+    ],
+    "regulatoryRecord": {
+      "url": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3578+ESP",
+      "status": "Autorizado según ficha oficial recuperada/indexada",
+      "checkedAt": "2026-10-30",
+      "note": "Consulta por buscador oficial; algunas aperturas posteriores fallan o requieren JavaScript. No acredita disponibilidad de un envase concreto."
+    }
+  },
+  {
+    "id": "doxybactin-50-cat-c-felis",
+    "presentationId": "doxybactin-1",
+    "name": "Doxybactin 50 mg",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3578%20ESP/FT_3578%20ESP.pdf",
+      "checkedAt": "2026-10-30",
+      "revision": "09/2025",
+      "section": "2; 3.1–3.10; 9. Tabla: página 4; pauta y duración: 3.9.",
+      "authority": "AEMPS / CIMAvet",
+      "localFile": "source-pdfs/doxybactin.pdf",
+      "sha256": "0766910e98c9313826445790e077aa394cdab5e16946b43c88a66ff8fe9b93ee"
+    },
+    "species": [
+      "gato"
+    ],
+    "indication": "Gato: infección respiratoria por Chlamydophila felis sensible a doxiciclina",
+    "route": "oral · administrar con alimentos",
+    "frequency": "10 mg/kg/día como referencia; prevalece la tabla diaria oficial. No dividir automáticamente en tomas.",
+    "duration": "Mínimo 28 días para asegurar eliminación del microorganismo",
+    "unit": "comprimidos",
+    "divisor": 4,
+    "resultBasis": "total diario",
+    "components": [
+      {
+        "name": "Doxiciclina (como hiclato)",
+        "mgPerUnit": 50,
+        "doseMgKg": 10
+      }
+    ],
+    "table": [
+      {
+        "min": 0.75,
+        "max": 1.25,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 0.25,
+        "label": "[0.75–1.25] kg"
+      },
+      {
+        "min": 1.25,
+        "max": 2.5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 0.5,
+        "label": "(1.25–2.5] kg"
+      },
+      {
+        "min": 2.5,
+        "max": 3.75,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 0.75,
+        "label": "(2.5–3.75] kg"
+      },
+      {
+        "min": 3.75,
+        "max": 5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1,
+        "label": "(3.75–5] kg"
+      },
+      {
+        "min": 5,
+        "max": 6.25,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1.25,
+        "label": "(5–6.25] kg"
+      },
+      {
+        "min": 6.25,
+        "max": 7.5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1.5,
+        "label": "(6.25–7.5] kg"
+      },
+      {
+        "min": 7.5,
+        "max": 10,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 2,
+        "label": "(7.5–10] kg"
+      },
+      {
+        "min": 10,
+        "max": 12.5,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 2.5,
+        "label": "(10–12.5] kg"
+      },
+      {
+        "min": 12.5,
+        "max": 15,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 3,
+        "label": "(12.5–15] kg"
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad a tetraciclinas o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "hepatic",
+        "kind": "precaution",
+        "text": "Especial precaución por posibles aumentos de enzimas hepáticas.",
+        "section": "3.5"
+      },
+      {
+        "condition": "gi",
+        "kind": "precaution",
+        "text": "Disfagia o vómitos: riesgo de lesión esofágica; administrar con alimentos.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; evaluación beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; evaluación beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "No simultanear con penicilinas/cefalosporinas; separar adsorbentes, antiácidos y sales de hierro al menos 3 horas antes/después. Revisar fenobarbital/fenitoína.",
+        "section": "3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "En jóvenes, valorar desarrollo dental y óseo sin inventar límite de edad. Confirmar sensibilidad/fundamento epidemiológico.",
+        "section": "3.5"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "Animales jóvenes: valorar desarrollo dental/óseo; no existe un umbral numérico de edad en este RCM.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Administrar los comprimidos con alimentos para reducir irritación esofágica y efectos gastrointestinales.",
+        "section": "3.5; 3.9"
+      }
+    ],
+    "notes": [
+      "Pictogramas cotejados visualmente en tabla oficial de 50 mg.",
+      "No se ha extrapolado la columna de 50 mg a bandas reservadas a 200/400 mg o combinaciones."
+    ],
+    "regulatoryRecord": {
+      "url": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3578+ESP",
+      "status": "Autorizado según ficha oficial recuperada/indexada",
+      "checkedAt": "2026-10-30",
+      "note": "Consulta por buscador oficial; algunas aperturas posteriores fallan o requieren JavaScript. No acredita disponibilidad de un envase concreto."
+    }
+  },
+  {
+    "id": "doxybactin-200-dog-respiratory-acute",
+    "presentationId": "doxybactin-2",
+    "name": "Doxybactin 200 mg",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3579%20ESP/FT_3579%20ESP.pdf",
+      "checkedAt": "2026-10-30",
+      "revision": "09/2025",
+      "section": "2; 3.1–3.10; 9. Tabla: página 4; pauta y duración: 3.9.",
+      "authority": "AEMPS / CIMAvet",
+      "localFile": "source-pdfs/doxybactin200.pdf",
+      "sha256": "7c4a9f0cddc313eaeebbbb77cb2244dc6b709685e3f5b1490046493bac535421"
+    },
+    "species": [
+      "perro"
+    ],
+    "indication": "Perro: rinitis por B. bronchiseptica/Pasteurella o bronconeumonía por Bordetella/Pasteurella, infección aguda",
+    "route": "oral · administrar con alimentos",
+    "frequency": "10 mg/kg/día como referencia; prevalece la tabla diaria oficial. No dividir automáticamente en tomas.",
+    "duration": "Continuar 2–3 días después de la curación clínica. La respuesta habitual aparece tras 5–7 días; no equivale a duración fija. Excluye casos crónicos/resistentes.",
+    "unit": "comprimidos",
+    "divisor": 4,
+    "resultBasis": "total diario",
+    "components": [
+      {
+        "name": "Doxiciclina (como hiclato)",
+        "mgPerUnit": 200,
+        "doseMgKg": 10
+      }
+    ],
+    "table": [
+      {
+        "min": 15,
+        "max": 20,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1,
+        "label": "(15–20] kg"
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1.5,
+        "label": "(25–30] kg"
+      },
+      {
+        "min": 30,
+        "max": 35,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1.75,
+        "label": "(30–35] kg"
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad a tetraciclinas o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "hepatic",
+        "kind": "precaution",
+        "text": "Especial precaución por posibles aumentos de enzimas hepáticas.",
+        "section": "3.5"
+      },
+      {
+        "condition": "gi",
+        "kind": "precaution",
+        "text": "Disfagia o vómitos: riesgo de lesión esofágica; administrar con alimentos.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; evaluación beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; evaluación beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "No simultanear con penicilinas/cefalosporinas; separar adsorbentes, antiácidos y sales de hierro al menos 3 horas antes/después. Revisar fenobarbital/fenitoína.",
+        "section": "3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "En jóvenes, valorar desarrollo dental y óseo sin inventar límite de edad. Confirmar sensibilidad/fundamento epidemiológico.",
+        "section": "3.5"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "Animales jóvenes: valorar desarrollo dental/óseo; no existe un umbral numérico de edad en este RCM.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Administrar los comprimidos con alimentos para reducir irritación esofágica y efectos gastrointestinales.",
+        "section": "3.5; 3.9"
+      }
+    ],
+    "notes": [
+      "Pictogramas cotejados visualmente en la página 4 de la ficha técnica de 200 mg.",
+      "No se ha extrapolado la columna de 50 mg a bandas reservadas a 200/400 mg o combinaciones."
+    ],
+    "regulatoryRecord": {
+      "url": "https://medicines.health.europa.eu/veterinary/es/600000034400",
+      "status": "Autorizado según ficha oficial recuperada/indexada",
+      "checkedAt": "2026-10-30",
+      "note": "Consulta por buscador oficial; algunas aperturas posteriores fallan o requieren JavaScript. No acredita disponibilidad de un envase concreto."
+    }
+  },
+  {
+    "id": "doxybactin-200-dog-leptospirosis",
+    "presentationId": "doxybactin-2",
+    "name": "Doxybactin 200 mg",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3579%20ESP/FT_3579%20ESP.pdf",
+      "checkedAt": "2026-10-30",
+      "revision": "09/2025",
+      "section": "2; 3.1–3.10; 9. Tabla: página 4; pauta y duración: 3.9.",
+      "authority": "AEMPS / CIMAvet",
+      "localFile": "source-pdfs/doxybactin200.pdf",
+      "sha256": "7c4a9f0cddc313eaeebbbb77cb2244dc6b709685e3f5b1490046493bac535421"
+    },
+    "species": [
+      "perro"
+    ],
+    "indication": "Perro: nefritis intersticial por Leptospira sensible a doxiciclina",
+    "route": "oral · administrar con alimentos",
+    "frequency": "10 mg/kg/día como referencia; prevalece la tabla diaria oficial. No dividir automáticamente en tomas.",
+    "duration": "14 días",
+    "unit": "comprimidos",
+    "divisor": 4,
+    "resultBasis": "total diario",
+    "components": [
+      {
+        "name": "Doxiciclina (como hiclato)",
+        "mgPerUnit": 200,
+        "doseMgKg": 10
+      }
+    ],
+    "table": [
+      {
+        "min": 15,
+        "max": 20,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1,
+        "label": "(15–20] kg"
+      },
+      {
+        "min": 25,
+        "max": 30,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1.5,
+        "label": "(25–30] kg"
+      },
+      {
+        "min": 30,
+        "max": 35,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "units": 1.75,
+        "label": "(30–35] kg"
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad a tetraciclinas o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "hepatic",
+        "kind": "precaution",
+        "text": "Especial precaución por posibles aumentos de enzimas hepáticas.",
+        "section": "3.5"
+      },
+      {
+        "condition": "gi",
+        "kind": "precaution",
+        "text": "Disfagia o vómitos: riesgo de lesión esofágica; administrar con alimentos.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; evaluación beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada; evaluación beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "No simultanear con penicilinas/cefalosporinas; separar adsorbentes, antiácidos y sales de hierro al menos 3 horas antes/después. Revisar fenobarbital/fenitoína.",
+        "section": "3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "En jóvenes, valorar desarrollo dental y óseo sin inventar límite de edad. Confirmar sensibilidad/fundamento epidemiológico.",
+        "section": "3.5"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "Animales jóvenes: valorar desarrollo dental/óseo; no existe un umbral numérico de edad en este RCM.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Administrar los comprimidos con alimentos para reducir irritación esofágica y efectos gastrointestinales.",
+        "section": "3.5; 3.9"
+      }
+    ],
+    "notes": [
+      "Pictogramas cotejados visualmente en la página 4 de la ficha técnica de 200 mg.",
+      "No se ha extrapolado la columna de 50 mg a bandas reservadas a 200/400 mg o combinaciones."
+    ],
+    "regulatoryRecord": {
+      "url": "https://medicines.health.europa.eu/veterinary/es/600000034400",
+      "status": "Autorizado según ficha oficial recuperada/indexada",
+      "checkedAt": "2026-10-30",
+      "note": "Consulta por buscador oficial; algunas aperturas posteriores fallan o requieren JavaScript. No acredita disponibilidad de un envase concreto."
+    }
+  },
+  {
+    "id": "synulox-standard-oral",
+    "presentationId": "synulox-1",
+    "name": "Synulox 40 mg/ml + 10 mg/ml",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/2574%20ESP/FT_2574%20ESP.pdf",
+      "checkedAt": "2026-10-30",
+      "revision": "11/2025",
+      "section": "2; 3.1–3.10; 5.2–5.3; 9. Tabla: página 4, sección 3.9.",
+      "authority": "AEMPS / CIMAvet",
+      "localFile": "source-pdfs/synulox.pdf",
+      "sha256": "152ce4eccb0f362cf783e5603d937d7d6d407ded9f7eb9d29810a15e95169cd7"
+    },
+    "species": [
+      "perro",
+      "gato"
+    ],
+    "indication": "Infección no crónica de piel/tejidos blandos, urinaria, respiratoria o intestinal; periodontal junto a terapia mecánica/quirúrgica. Pauta estándar, confirmar sección 3.2.",
+    "route": "Oral: suspensión reconstituida; agitar antes de usar",
+    "frequency": "Cada 12 horas",
+    "duration": "Habitualmente 5–7 días. Esta regla excluye infecciones crónicas y respiratorias refractarias.",
+    "unit": "ml",
+    "resultBasis": "por administración",
+    "doseMlKg": 0.25,
+    "unitStep": 0.05,
+    "unitStepNote": "Comprobación conservadora de coincidencia con las equivalencias del cuentagotas: 1 gota aporta aproximadamente 0,05 ml. No es precisión volumétrica exacta ni autoriza redondeo.",
+    "components": [
+      {
+        "name": "Amoxicilina",
+        "mgPerUnit": 40,
+        "doseMgKg": 10
+      },
+      {
+        "name": "Ácido clavulánico",
+        "mgPerUnit": 10,
+        "doseMgKg": 2.5
+      }
+    ],
+    "tableRanges": [
+      {
+        "min": 0.5,
+        "max": 1,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "minUnits": 0.15,
+        "maxUnits": 0.25,
+        "label": "0,5–1 kg: 0,15–0,25 ml (3–5 gotas)"
+      },
+      {
+        "min": 1,
+        "max": 2,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "minUnits": 0.3,
+        "maxUnits": 0.5,
+        "label": ">1–2 kg: 0,30–0,50 ml (6–10 gotas)"
+      },
+      {
+        "min": 2,
+        "max": 3,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "minUnits": 0.55,
+        "maxUnits": 0.75,
+        "label": ">2–3 kg: 0,55–0,75 ml (11–15 gotas)"
+      },
+      {
+        "min": 3,
+        "max": 4,
+        "minInclusive": false,
+        "maxInclusive": true,
+        "minUnits": 0.8,
+        "maxUnits": 1,
+        "label": ">3–4 kg: 0,80–1 ml (16–20 gotas)"
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "Hipersensibilidad a principios activos, betalactámicos o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "renalSevereOliguria",
+        "kind": "contraindication",
+        "text": "Insuficiencia renal grave con anuria u oliguria: no usar.",
+        "section": "3.3"
+      },
+      {
+        "condition": "resistant",
+        "kind": "contraindication",
+        "text": "Excluir resistencia al tratamiento y sospecha/confirmación SARM/SPRM; Pseudomonas es intrínsecamente resistente.",
+        "section": "3.4"
+      },
+      {
+        "condition": "renal",
+        "kind": "precaution",
+        "text": "Evaluar beneficio/riesgo; descartar insuficiencia grave con anuria/oliguria.",
+        "section": "3.5"
+      },
+      {
+        "condition": "hepatic",
+        "kind": "precaution",
+        "text": "Evaluar beneficio/riesgo individual.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada: evaluación beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "precaution",
+        "text": "Seguridad no demostrada: evaluación beneficio/riesgo.",
+        "section": "3.7"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Revisar antimicrobianos bacteriostáticos y aminoglucósidos; no mezclar con otros medicamentos.",
+        "section": "3.8; 5.1"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Confirmar sensibilidad o fundamento epidemiológico; priorizar espectro reducido eficaz. No usar antibióticos sistémicos rutinariamente para infecciones intestinales.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Reconstituir con 15 ml de agua; agitar. Conservar reconstituido a 2–8 °C y utilizar en 7 días. Comprobar medida con cuentagotas original.",
+        "section": "3.9; 5.2–5.3"
+      }
+    ],
+    "notes": [
+      "Solo subconjunto representable sin redondeo en las cuatro bandas oficiales: 0,5–4 kg. El bloqueo fuera de cobertura no es contraindicación.",
+      "A 0,5 kg, la fórmula produce 0,125 ml pero el rango oficial empieza en 0,15 ml. Se bloquea la administración automática; no se elige una dosis redondeada.",
+      "Cada componente conserva su masa base; no se suman como un principio activo.",
+      "La concentración 40+10 mg/ml se refiere al producto reconstituido.",
+      "Motor requiere soporte doseMlKg + tableRanges + unitStep antes de activar."
+    ]
+  },
+  {
+    "id": "propancat-230-20-table",
+    "presentationId": "propancat-1",
+    "status": "verified",
+    "enabled": true,
+    "species": [
+      "gato"
+    ],
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3494%2BESP/FT_3494%2BESP.pdf",
+      "revision": "10/2024",
+      "checkedAt": "2026-10-30",
+      "section": "2; 3.1–3.9; 5.2",
+      "verification": "RCM completo AEMPS consultado y cotejado con prospecto local de igual revisión"
+    },
+    "route": "oral",
+    "unit": "comprimidos",
+    "divisor": 2,
+    "components": [
+      {
+        "name": "embonato de pirantel",
+        "mgPerUnit": 230,
+        "doseMgKg": 57.5
+      },
+      {
+        "name": "prazicuantel",
+        "mgPerUnit": 20,
+        "doseMgKg": 5
+      }
+    ],
+    "indication": "Infestación mixta por Toxocara/Toxascaris y Dipylidium/Taenia/Echinococcus; confirmar parásitos",
+    "frequency": "Una administración; repetición según parasitosis y riesgo de reinfestación",
+    "duration": "Áscaris: repetir con un medicamento adecuado para nematodos cada 14 días hasta 2–3 semanas tras el destete. Otras repeticiones: valoración veterinaria, sin calendario automático.",
+    "resultBasis": "por administración",
+    "minAgeDays": 42,
+    "ageKind": "contraindication",
+    "ageText": "No usar en gatitos menores de 6 semanas.",
+    "ageSection": "3.3",
+    "table": [
+      {
+        "min": 1,
+        "max": 2,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 0.5,
+        "label": "1,0–2,0 kg"
+      },
+      {
+        "min": 2.1,
+        "max": 4,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1,
+        "label": "2,1–4,0 kg"
+      },
+      {
+        "min": 4.1,
+        "max": 6,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 1.5,
+        "label": "4,1–6,0 kg"
+      },
+      {
+        "min": 6.1,
+        "max": 8,
+        "minInclusive": true,
+        "maxInclusive": true,
+        "units": 2,
+        "label": "6,1–8,0 kg"
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "No usar con hipersensibilidad a los principios activos o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "contraindication",
+        "text": "No usar durante la gestación.",
+        "section": "3.7"
+      },
+      {
+        "condition": "piperazine",
+        "kind": "contraindication",
+        "text": "No administrar simultáneamente con piperazina.",
+        "section": "3.3; 3.8"
+      },
+      {
+        "condition": "lactation",
+        "kind": "information",
+        "text": "El RCM permite el uso durante la lactancia.",
+        "section": "3.7"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "Gatitos: respetar mínimo de 6 semanas y revisar seguimiento de áscaris y destete.",
+        "section": "3.3; 3.9"
+      },
+      {
+        "condition": "debilitated",
+        "kind": "precaution",
+        "text": "Debilidad grave o infestación intensa: examen y evaluación beneficio/riesgo veterinaria.",
+        "section": "3.5"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Identificar tratamientos concomitantes; excluir piperazina antes del cálculo.",
+        "section": "3.8"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Controlar hospedadores intermediarios y reinfestación. Echinococcus requiere directrices específicas de seguimiento. Desechar mitades no usadas.",
+        "section": "3.4; 3.5; 5.2"
+      }
+    ]
+  },
+  {
+    "presentationId": "cefaseptin-1",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3352%20ESP/FT_3352%20ESP.pdf",
+      "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3352+ESP",
+      "revision": "05/2026",
+      "checkedAt": "2026-10-30",
+      "reviewedAt": "2026-10-30",
+      "section": "2; 3.1–3.9; 5.2–5.3",
+      "sections": [
+        "2",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.5",
+        "3.7",
+        "3.8",
+        "3.9",
+        "5.2",
+        "5.3"
+      ],
+      "sha256": "17b05a5923130fb3b6944948e64dde7e7dca7be556f610e098e37c0684936d9f",
+      "verification": "Texto completo clínico cotejado con ficha oficial; pauta estándar únicamente; fracciones exactas sin redondeo"
+    },
+    "route": "oral",
+    "unit": "comprimidos",
+    "divisor": 2,
+    "doseMgKg": 15,
+    "resultBasis": "por administración",
+    "frequency": "Cada 12 horas (dos veces al día)",
+    "components": [
+      {
+        "name": "cefalexina",
+        "mgPerUnit": 75,
+        "doseMgKg": 15
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "No usar con hipersensibilidad a cefalexina, cefalosporinas, betalactámicos o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "resistant",
+        "kind": "contraindication",
+        "text": "No usar en caso de resistencia a cefalosporinas o penicilinas. Confirmar sensibilidad antes de seleccionar la pauta.",
+        "section": "3.3; 3.5"
+      },
+      {
+        "condition": "renal",
+        "kind": "review",
+        "text": "Insuficiencia renal: reducir dosis y evitar antimicrobianos nefrotóxicos; el prospecto no proporciona un algoritmo de ajuste. No calcular pauta estándar.",
+        "section": "3.5"
+      },
+      {
+        "condition": "renalSevereOliguria",
+        "kind": "review",
+        "text": "Disfunción renal: requiere ajuste individual no cuantificado en la ficha; pauta estándar bloqueada.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "review",
+        "text": "Seguridad no establecida en gestación; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "review",
+        "text": "Seguridad no establecida en lactancia; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "diuretic",
+        "kind": "review",
+        "text": "Evitar combinación con diuréticos como furosemida por riesgo de nefrotoxicidad; identificar tratamiento.",
+        "section": "3.8"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Identificar concomitantes: no usar con bacteriostáticos (macrólidos, sulfonamidas, tetraciclinas); evitar aminoglucósidos y otros nefrotóxicos.",
+        "section": "3.5; 3.8"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "No usar en cachorros o gatitos de menos de 1 kg ni gatitos de menos de 10 semanas. El cálculo exacto con este comprimido no representa dosis inferiores a 2,5 kg.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Pauta estándar: confirmar bacteria sensible y necesidad de antibiótico sistémico. No automatiza duplicación por gravedad. Mitad sobrante: conservar en blíster y usar antes de 16 horas.",
+        "section": "3.5; 3.9; 5.2–5.3"
+      }
+    ],
+    "id": "cefaseptin-75-dog-urinary",
+    "species": [
+      "perro"
+    ],
+    "indication": "Perro: infección urinaria por microorganismos sensibles a cefalexina (incluidas nefritis y cistitis)",
+    "duration": "14 días"
+  },
+  {
+    "presentationId": "cefaseptin-1",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3352%20ESP/FT_3352%20ESP.pdf",
+      "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3352+ESP",
+      "revision": "05/2026",
+      "checkedAt": "2026-10-30",
+      "reviewedAt": "2026-10-30",
+      "section": "2; 3.1–3.9; 5.2–5.3",
+      "sections": [
+        "2",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.5",
+        "3.7",
+        "3.8",
+        "3.9",
+        "5.2",
+        "5.3"
+      ],
+      "sha256": "17b05a5923130fb3b6944948e64dde7e7dca7be556f610e098e37c0684936d9f",
+      "verification": "Texto completo clínico cotejado con ficha oficial; pauta estándar únicamente; fracciones exactas sin redondeo"
+    },
+    "route": "oral",
+    "unit": "comprimidos",
+    "divisor": 2,
+    "doseMgKg": 15,
+    "resultBasis": "por administración",
+    "frequency": "Cada 12 horas (dos veces al día)",
+    "components": [
+      {
+        "name": "cefalexina",
+        "mgPerUnit": 75,
+        "doseMgKg": 15
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "No usar con hipersensibilidad a cefalexina, cefalosporinas, betalactámicos o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "resistant",
+        "kind": "contraindication",
+        "text": "No usar en caso de resistencia a cefalosporinas o penicilinas. Confirmar sensibilidad antes de seleccionar la pauta.",
+        "section": "3.3; 3.5"
+      },
+      {
+        "condition": "renal",
+        "kind": "review",
+        "text": "Insuficiencia renal: reducir dosis y evitar antimicrobianos nefrotóxicos; el prospecto no proporciona un algoritmo de ajuste. No calcular pauta estándar.",
+        "section": "3.5"
+      },
+      {
+        "condition": "renalSevereOliguria",
+        "kind": "review",
+        "text": "Disfunción renal: requiere ajuste individual no cuantificado en la ficha; pauta estándar bloqueada.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "review",
+        "text": "Seguridad no establecida en gestación; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "review",
+        "text": "Seguridad no establecida en lactancia; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "diuretic",
+        "kind": "review",
+        "text": "Evitar combinación con diuréticos como furosemida por riesgo de nefrotoxicidad; identificar tratamiento.",
+        "section": "3.8"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Identificar concomitantes: no usar con bacteriostáticos (macrólidos, sulfonamidas, tetraciclinas); evitar aminoglucósidos y otros nefrotóxicos.",
+        "section": "3.5; 3.8"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "No usar en cachorros o gatitos de menos de 1 kg ni gatitos de menos de 10 semanas. El cálculo exacto con este comprimido no representa dosis inferiores a 2,5 kg.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Pauta estándar: confirmar bacteria sensible y necesidad de antibiótico sistémico. No automatiza duplicación por gravedad. Mitad sobrante: conservar en blíster y usar antes de 16 horas.",
+        "section": "3.5; 3.9; 5.2–5.3"
+      }
+    ],
+    "id": "cefaseptin-75-dog-superficial",
+    "species": [
+      "perro"
+    ],
+    "indication": "Perro: pioderma superficial por microorganismos sensibles a cefalexina",
+    "duration": "Al menos 15 días; revisión veterinaria según evolución"
+  },
+  {
+    "presentationId": "cefaseptin-1",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3352%20ESP/FT_3352%20ESP.pdf",
+      "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3352+ESP",
+      "revision": "05/2026",
+      "checkedAt": "2026-10-30",
+      "reviewedAt": "2026-10-30",
+      "section": "2; 3.1–3.9; 5.2–5.3",
+      "sections": [
+        "2",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.5",
+        "3.7",
+        "3.8",
+        "3.9",
+        "5.2",
+        "5.3"
+      ],
+      "sha256": "17b05a5923130fb3b6944948e64dde7e7dca7be556f610e098e37c0684936d9f",
+      "verification": "Texto completo clínico cotejado con ficha oficial; pauta estándar únicamente; fracciones exactas sin redondeo"
+    },
+    "route": "oral",
+    "unit": "comprimidos",
+    "divisor": 2,
+    "doseMgKg": 15,
+    "resultBasis": "por administración",
+    "frequency": "Cada 12 horas (dos veces al día)",
+    "components": [
+      {
+        "name": "cefalexina",
+        "mgPerUnit": 75,
+        "doseMgKg": 15
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "No usar con hipersensibilidad a cefalexina, cefalosporinas, betalactámicos o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "resistant",
+        "kind": "contraindication",
+        "text": "No usar en caso de resistencia a cefalosporinas o penicilinas. Confirmar sensibilidad antes de seleccionar la pauta.",
+        "section": "3.3; 3.5"
+      },
+      {
+        "condition": "renal",
+        "kind": "review",
+        "text": "Insuficiencia renal: reducir dosis y evitar antimicrobianos nefrotóxicos; el prospecto no proporciona un algoritmo de ajuste. No calcular pauta estándar.",
+        "section": "3.5"
+      },
+      {
+        "condition": "renalSevereOliguria",
+        "kind": "review",
+        "text": "Disfunción renal: requiere ajuste individual no cuantificado en la ficha; pauta estándar bloqueada.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "review",
+        "text": "Seguridad no establecida en gestación; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "review",
+        "text": "Seguridad no establecida en lactancia; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "diuretic",
+        "kind": "review",
+        "text": "Evitar combinación con diuréticos como furosemida por riesgo de nefrotoxicidad; identificar tratamiento.",
+        "section": "3.8"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Identificar concomitantes: no usar con bacteriostáticos (macrólidos, sulfonamidas, tetraciclinas); evitar aminoglucósidos y otros nefrotóxicos.",
+        "section": "3.5; 3.8"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "No usar en cachorros o gatitos de menos de 1 kg ni gatitos de menos de 10 semanas. El cálculo exacto con este comprimido no representa dosis inferiores a 2,5 kg.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Pauta estándar: confirmar bacteria sensible y necesidad de antibiótico sistémico. No automatiza duplicación por gravedad. Mitad sobrante: conservar en blíster y usar antes de 16 horas.",
+        "section": "3.5; 3.9; 5.2–5.3"
+      }
+    ],
+    "id": "cefaseptin-75-dog-deep",
+    "species": [
+      "perro"
+    ],
+    "indication": "Perro: pioderma profunda por microorganismos sensibles a cefalexina",
+    "duration": "Al menos 28 días; revisión veterinaria según evolución"
+  },
+  {
+    "presentationId": "cefaseptin-1",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3352%20ESP/FT_3352%20ESP.pdf",
+      "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3352+ESP",
+      "revision": "05/2026",
+      "checkedAt": "2026-10-30",
+      "reviewedAt": "2026-10-30",
+      "section": "2; 3.1–3.9; 5.2–5.3",
+      "sections": [
+        "2",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.5",
+        "3.7",
+        "3.8",
+        "3.9",
+        "5.2",
+        "5.3"
+      ],
+      "sha256": "17b05a5923130fb3b6944948e64dde7e7dca7be556f610e098e37c0684936d9f",
+      "verification": "Texto completo clínico cotejado con ficha oficial; pauta estándar únicamente; fracciones exactas sin redondeo"
+    },
+    "route": "oral",
+    "unit": "comprimidos",
+    "divisor": 2,
+    "doseMgKg": 15,
+    "resultBasis": "por administración",
+    "frequency": "Cada 12 horas (dos veces al día)",
+    "components": [
+      {
+        "name": "cefalexina",
+        "mgPerUnit": 75,
+        "doseMgKg": 15
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "No usar con hipersensibilidad a cefalexina, cefalosporinas, betalactámicos o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "resistant",
+        "kind": "contraindication",
+        "text": "No usar en caso de resistencia a cefalosporinas o penicilinas. Confirmar sensibilidad antes de seleccionar la pauta.",
+        "section": "3.3; 3.5"
+      },
+      {
+        "condition": "renal",
+        "kind": "review",
+        "text": "Insuficiencia renal: reducir dosis y evitar antimicrobianos nefrotóxicos; el prospecto no proporciona un algoritmo de ajuste. No calcular pauta estándar.",
+        "section": "3.5"
+      },
+      {
+        "condition": "renalSevereOliguria",
+        "kind": "review",
+        "text": "Disfunción renal: requiere ajuste individual no cuantificado en la ficha; pauta estándar bloqueada.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "review",
+        "text": "Seguridad no establecida en gestación; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "review",
+        "text": "Seguridad no establecida en lactancia; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "diuretic",
+        "kind": "review",
+        "text": "Evitar combinación con diuréticos como furosemida por riesgo de nefrotoxicidad; identificar tratamiento.",
+        "section": "3.8"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Identificar concomitantes: no usar con bacteriostáticos (macrólidos, sulfonamidas, tetraciclinas); evitar aminoglucósidos y otros nefrotóxicos.",
+        "section": "3.5; 3.8"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "No usar en cachorros o gatitos de menos de 1 kg ni gatitos de menos de 10 semanas. El cálculo exacto con este comprimido no representa dosis inferiores a 2,5 kg.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Pauta estándar: confirmar bacteria sensible y necesidad de antibiótico sistémico. No automatiza duplicación por gravedad. Mitad sobrante: conservar en blíster y usar antes de 16 horas.",
+        "section": "3.5; 3.9; 5.2–5.3"
+      }
+    ],
+    "id": "cefaseptin-75-cat-skin",
+    "species": [
+      "gato"
+    ],
+    "indication": "Gato: heridas infectadas y abscesos cutáneos/subcutáneos por microorganismos sensibles a cefalexina",
+    "duration": "5 días",
+    "minAgeDays": 70,
+    "ageKind": "contraindication",
+    "ageText": "No usar en gatitos menores de 10 semanas.",
+    "ageSection": "3.5"
+  }
+]

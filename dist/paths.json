@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cistitis", "name": "Cistitis bacteriana esporádica", "group": "Renal y urinario", "species": ["perro", "gato"], "status": "referencias revisadas; apoyo clínico, sin prescripción automática",
+    "summary": "Los signos urinarios no confirman una infección bacteriana. Separar cistitis esporádica, recurrente, pielonefritis, prostatitis y bacteriuria sin signos.",
+    "diagnostics": ["Urianálisis completo y cultivo aeróbico, preferiblemente de muestra obtenida por cistocentesis si es posible.", "En gatos, confirmar la infección por cultivo; no asumir una causa bacteriana por disuria o hematuria."],
+    "options": ["Amoxicilina sola es una opción inicial de la guía si el caso y sensibilidad la respaldan; no identificada en este inventario.", "La elección exige considerar resistencias locales, autorización de la presentación y restricciones de uso prudente. El stock no determina la selección."],
+    "review": "La guía propone 3–5 días para cistitis esporádica; no constituye una pauta automática ni sustituye el prospecto. Sin mejoría en 48 horas, investigar diagnóstico y factores complicantes antes de cambiar antibiótico.",
+    "alerts": ["Esta ruta no cubre pielonefritis, prostatitis ni recurrencias.", "No escalar antibióticos automáticamente ante falta de respuesta."],
+    "productIds": ["clavaseptin", "synulox"], "stockNote": "Productos relacionados del inventario, no recomendación de tratamiento; presentaciones pendientes de validación.",
+    "sources": [{"title":"ISCAID: infecciones urinarias en perros y gatos", "year":2019, "url":"https://www.amrvetcollective.com/assets/guidelines/ISCAID_Urinary_2019.pdf", "doi":"10.1016/j.tvjl.2019.02.008", "section":"Sporadic bacterial cystitis: Diagnosis, Treatment, Follow up; pp. 9–11", "checkedAt":"2026-10-30", "verification":"Texto original consultado en copia profesional; editorial devolvió 403"}]
+  },
+  {
+    "id":"pioderma", "name":"Pioderma superficial canina", "group":"Dermatología", "species":["perro"], "status":"referencias revisadas; apoyo clínico, sin prescripción automática",
+    "summary":"Confirmar infección por citología y clasificar la profundidad antes de seleccionar tratamiento.",
+    "diagnostics":["Examinar lesiones y buscar causas primarias, como enfermedad alérgica o parasitaria.","Cultivo y antibiograma especialmente si se plantea tratamiento sistémico y hay riesgo de resistencia, recurrencia, bacilos o ausencia de respuesta."],
+    "options":["El tratamiento tópico es la opción preferente en pioderma de superficie y superficial; priorizar antisépticos frente a antibióticos tópicos.","Reservar antibióticos sistémicos para casos profundos o superficiales en los que el tópico sea ineficaz o inviable. Elegir según caso y pruebas, no por escalada automática."],
+    "review":"Reexaminar las lesiones y repetir citología según evolución. La guía inicia el tratamiento sistémico de pioderma superficial seleccionado con dos semanas y revisión; no trasladar este plazo a cualquier producto o proceso.",
+    "alerts":["Las lesiones profundas requieren otra evaluación y cultivo.","Una categoría AMEG no sustituye la evidencia clínica ni las restricciones españolas."],
+    "productIds":["cl-exidin-4-spray","cl-exidin-4-champu","cefaseptin","clindaseptin","clavaseptin"], "stockNote":"Referencias de inventario; composición, indicación y presentación deben verificarse antes del uso.",
+    "sources":[{"title":"ISCAID: antimicrobial use guidelines for canine pyoderma", "year":2025, "url":"https://www.amrvetcollective.com/assets/guidelines/ISCAID_canine_skin_disease_2025.pdf", "doi":"10.1111/vde.13342", "section":"Resumen; secciones 3, 7 y 8; Box 2", "checkedAt":"2026-10-30", "verification":"Texto original consultado en copia profesional; editorial intermitentemente inaccesible"}]
+  },
+  {
+    "id":"respiratorio-canino", "name":"Tos aguda / complejo respiratorio canino", "group":"Respiratorio", "species":["perro"], "status":"referencias revisadas; apoyo clínico, sin prescripción automática",
+    "summary":"Muchas infecciones respiratorias caninas son víricas y no necesitan antibiótico.",
+    "diagnostics":["Historia, exploración y auscultación; investigar neumonía si hay signos compatibles.","Interpretar PCR y cultivo con el contexto: pueden detectar portadores o cepas vacunales."],
+    "options":["Con secreción mucopurulenta y fiebre, letargia o inapetencia, valorar origen bacteriano. La guía considera doxiciclina en casos seleccionados sin neumonía."],
+    "review":"Reevaluar mala evolución; no sustituir automáticamente por amoxicilina-clavulánico.",
+    "alerts":["Disnea o sospecha de neumonía: valoración prioritaria y ruta diferente."],
+    "productIds":["doxybactin"],"stockNote":"Comprobar la presentación y la indicación autorizadas.",
+    "sources":[{"title":"ISCAID: respiratory tract disease in dogs and cats", "year":2017, "url":"https://onlinelibrary.wiley.com/doi/full/10.1111/jvim.14627", "doi":"10.1111/jvim.14627", "section":"Canine Infectious Respiratory Disease Complex: Diagnosis and Treatment", "checkedAt":"2026-10-30", "verification":"Secciones originales consultadas; edición aún enlazada por ISCAID"}]
+  },
+  {
+    "id":"respiratorio-felino", "name":"Enfermedad respiratoria alta felina", "group":"Respiratorio", "species":["gato"], "status":"referencias revisadas; apoyo clínico, sin prescripción automática",
+    "summary":"La etiología vírica es frecuente; secreción mucopurulenta aislada no demuestra infección bacteriana.",
+    "diagnostics":["Exploración ocular, oral, ótica y auscultación. Considerar exposición, vacunación y pruebas FeLV/FIV.","El cultivo nasal superficial puede reflejar flora normal."],
+    "options":["No iniciar antibiótico automáticamente; seleccionar tratamiento solo ante sospecha bacteriana justificada."],
+    "review":"La persistencia obliga a investigar causas subyacentes, sin encadenar antibióticos.",
+    "alerts":["Esta ruta no cubre asma, tos de vía baja ni neumonía."],
+    "productIds":["doxybactin"], "stockNote":"No extrapolar concentraciones ni especies desde otra presentación.",
+    "sources":[{"title":"ISCAID: respiratory tract disease in dogs and cats", "year":2017, "url":"https://onlinelibrary.wiley.com/doi/full/10.1111/jvim.14627", "doi":"10.1111/jvim.14627", "section":"Feline Upper Respiratory Tract Disease: Definitions, Diagnosis and Treatment", "checkedAt":"2026-10-30", "verification":"Secciones originales consultadas; edición aún enlazada por ISCAID"}]
+  },
+  {
+    "id":"artrosis", "name":"Osteoartrosis / dolor musculoesquelético crónico", "group":"Dolor y movilidad", "species":["perro","gato"], "status":"referencias revisadas; apoyo clínico, sin prescripción automática",
+    "summary":"Combinar evaluación del dolor, función y calidad de vida con un plan individualizado.",
+    "diagnostics":["Exploración veterinaria y observaciones del cuidador; los vídeos domésticos pueden revelar cambios sutiles.","En gatos, MiPSC puede apoyar el cribado; FMPI o CSOM permiten seguir respuesta. Registrar una medida basal."],
+    "options":["Integrar control del peso, ejercicio adaptado, entorno y analgesia adecuada a la especie y al paciente.","La eficacia de las opciones es desigual; el soporte articular no sustituye una analgesia necesaria."],
+    "review":"Repetir la misma medida de dolor y función para evaluar respuesta y ajustar el plan. La guía no proporciona un único intervalo válido para todos los pacientes.",
+    "alerts":["Revisar comorbilidades e interacciones en el prospecto de cada analgésico.","No convertir artrosis en indicación automática de antibiótico."],
+    "productIds":["firodyl","cimalgex","meloxidyl","rheumocam","hyaloral-plasma"], "stockNote":"Relación temática, no equivalencia terapéutica ni recomendación de especie.",
+    "sources":[{"title":"2022 WSAVA guidelines for recognition, assessment and treatment of pain", "year":2022, "url":"https://onlinelibrary.wiley.com/doi/10.1111/jsap.13566", "doi":"10.1111/jsap.13566", "section":"Practical chronic pain assessment; Box 2; sección 3.13 y Evidence-based medicine in OA management", "checkedAt":"2026-10-30", "verification":"Secciones originales consultadas; publicación en volumen 2023"}]
+  },
+  {
+    "id":"diarrea", "name":"Diarrea aguda canina leve o moderada", "group":"Digestivo", "species":["perro"], "status":"referencias revisadas; apoyo clínico, sin prescripción automática",
+    "summary":"Valorar estado general, hidratación y respuesta a la fluidoterapia. La sangre en heces por sí sola no justifica antibióticos.",
+    "diagnostics":["Clasificar gravedad y valorar enfermedad sistémica.","Los hallazgos de inflamación grave o abrumadora requieren una evaluación específica."],
+    "options":["ENOVAT recomienda evitar antimicrobianos en enfermedad leve o moderada, hemorrágica o no hemorrágica.","La persistencia de enfermedad sistémica pese a fluidoterapia adecuada queda fuera de esta ruta y puede justificar antimicrobianos sistémicos tras valoración."],
+    "review":"Reevaluar según evolución. No fijar una duración antibiótica para casos en los que no están indicados.",
+    "alerts":["Metronidazol no es un tratamiento rutinario por pertenecer a una categoría de menor riesgo.","ENOVAT no recomienda a favor ni en contra de probióticos; no atribuir eficacia uniforme a complementos."],
+    "productIds":["metrobactin","fortiflora-canino","daforte-plus"], "stockNote":"Listado relacionado; no implica indicación de los productos ni aprobación de sus pautas.",
+    "sources":[{"title":"ENOVAT guidelines for antimicrobial use in canine acute diarrhoea", "year":2024, "url":"https://wsava.org/wp-content/uploads/2024/09/ENOVAT-GUIDELINES-FOR-ANTIMICROBIAL-USE-IN-CANINE-ACUTE-DIARRHEA.pdf", "doi":"10.1016/j.tvjl.2024.106208", "section":"Recomendaciones 1–5 y 8", "checkedAt":"2026-10-30", "verification":"Resumen oficial WSAVA de recomendaciones consultado íntegramente"}]
+  }
+]

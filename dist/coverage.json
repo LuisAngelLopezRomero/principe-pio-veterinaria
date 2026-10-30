@@ -1,0 +1,1705 @@
+{
+  "checkedAt": "2026-10-30",
+  "scope": "Auditoría de implementación; no revalidación clínica integral ni certificación de vigencia",
+  "products": [
+    {
+      "id": "clavaseptin",
+      "name": "Clavaseptin",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "clavaseptin-1",
+          "label": "50 mg",
+          "rules": [
+            {
+              "id": "clavaseptin-50-standard",
+              "species": [
+                "perro",
+                "gato"
+              ],
+              "indication": "Infección bacteriana sensible en piel, aparato respiratorio, mucosa oral, urinario o digestivo; confirmar agente y localización en sección 3.2",
+              "frequency": "Cada 12 horas",
+              "duration": "Pauta estándar: 5–7 días. Casos crónicos/recurrentes: reevaluar; el RCM contempla 2–4 semanas, fuera de esta regla estándar.",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/1662%20ESP/FT_1662%20ESP.pdf",
+              "revision": "12/2024"
+            }
+          ],
+          "status": "limited-rules-enabled"
+        },
+        {
+          "id": "clavaseptin-2",
+          "label": "250 mg",
+          "rules": [
+            {
+              "id": "clavaseptin-250-standard",
+              "species": [
+                "perro"
+              ],
+              "indication": "Infección bacteriana sensible en piel, aparato respiratorio, mucosa oral, urinario o digestivo; confirmar agente y localización en sección 3.2",
+              "frequency": "Cada 12 horas",
+              "duration": "Pauta estándar: 5–7 días. Casos crónicos/recurrentes: reevaluar; el RCM contempla 2–4 semanas, fuera de esta regla estándar.",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/1663%20ESP/FT_1663%20ESP.pdf",
+              "revision": "12/2024"
+            }
+          ],
+          "status": "limited-rules-enabled"
+        },
+        {
+          "id": "clavaseptin-3",
+          "label": "500 mg",
+          "rules": [
+            {
+              "id": "clavaseptin-500-standard",
+              "species": [
+                "perro"
+              ],
+              "indication": "Infección bacteriana sensible en piel, aparato respiratorio, mucosa oral, urinario o digestivo; confirmar agente y localización en sección 3.2",
+              "frequency": "Cada 12 horas",
+              "duration": "Pauta estándar: 5–7 días. Casos crónicos/recurrentes: reevaluar; el RCM contempla 2–4 semanas, fuera de esta regla estándar.",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/1664%20ESP/FT_1664%20ESP.pdf",
+              "revision": "12/2024"
+            }
+          ],
+          "status": "limited-rules-enabled"
+        }
+      ]
+    },
+    {
+      "id": "synulox",
+      "name": "Synulox",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "synulox-1",
+          "label": "40 + 10 mg/ml · suspensión oral",
+          "rules": [
+            {
+              "id": "synulox-standard-oral",
+              "species": [
+                "perro",
+                "gato"
+              ],
+              "indication": "Infección no crónica de piel/tejidos blandos, urinaria, respiratoria o intestinal; periodontal junto a terapia mecánica/quirúrgica. Pauta estándar, confirmar sección 3.2.",
+              "frequency": "Cada 12 horas",
+              "duration": "Habitualmente 5–7 días. Esta regla excluye infecciones crónicas y respiratorias refractarias.",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/2574%20ESP/FT_2574%20ESP.pdf",
+              "revision": "11/2025"
+            }
+          ],
+          "status": "limited-rules-enabled"
+        }
+      ]
+    },
+    {
+      "id": "cefaseptin",
+      "name": "Cefaseptin",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "cefaseptin-1",
+          "label": "75 mg",
+          "rules": [
+            {
+              "id": "cefaseptin-75-dog-urinary",
+              "species": [
+                "perro"
+              ],
+              "indication": "Perro: infección urinaria por microorganismos sensibles a cefalexina (incluidas nefritis y cistitis)",
+              "frequency": "Cada 12 horas (dos veces al día)",
+              "duration": "14 días",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3352%20ESP/FT_3352%20ESP.pdf",
+              "revision": "05/2026"
+            },
+            {
+              "id": "cefaseptin-75-dog-superficial",
+              "species": [
+                "perro"
+              ],
+              "indication": "Perro: pioderma superficial por microorganismos sensibles a cefalexina",
+              "frequency": "Cada 12 horas (dos veces al día)",
+              "duration": "Al menos 15 días; revisión veterinaria según evolución",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3352%20ESP/FT_3352%20ESP.pdf",
+              "revision": "05/2026"
+            },
+            {
+              "id": "cefaseptin-75-dog-deep",
+              "species": [
+                "perro"
+              ],
+              "indication": "Perro: pioderma profunda por microorganismos sensibles a cefalexina",
+              "frequency": "Cada 12 horas (dos veces al día)",
+              "duration": "Al menos 28 días; revisión veterinaria según evolución",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3352%20ESP/FT_3352%20ESP.pdf",
+              "revision": "05/2026"
+            },
+            {
+              "id": "cefaseptin-75-cat-skin",
+              "species": [
+                "gato"
+              ],
+              "indication": "Gato: heridas infectadas y abscesos cutáneos/subcutáneos por microorganismos sensibles a cefalexina",
+              "frequency": "Cada 12 horas (dos veces al día)",
+              "duration": "5 días",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3352%20ESP/FT_3352%20ESP.pdf",
+              "revision": "05/2026"
+            }
+          ],
+          "status": "limited-rules-enabled"
+        },
+        {
+          "id": "cefaseptin-2",
+          "label": "300 mg",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "doxybactin",
+      "name": "Doxybactin",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "doxybactin-1",
+          "label": "50 mg",
+          "rules": [
+            {
+              "id": "doxybactin-50-dog-respiratory-acute",
+              "species": [
+                "perro"
+              ],
+              "indication": "Perro: rinitis por B. bronchiseptica/Pasteurella o bronconeumonía por Bordetella/Pasteurella, infección aguda",
+              "frequency": "10 mg/kg/día como referencia; prevalece la tabla diaria oficial. No dividir automáticamente en tomas.",
+              "duration": "Continuar 2–3 días después de la curación clínica. La respuesta habitual aparece tras 5–7 días; no equivale a duración fija. Excluye casos crónicos/resistentes.",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3578%20ESP/FT_3578%20ESP.pdf",
+              "revision": "09/2025"
+            },
+            {
+              "id": "doxybactin-50-dog-leptospirosis",
+              "species": [
+                "perro"
+              ],
+              "indication": "Perro: nefritis intersticial por Leptospira sensible a doxiciclina",
+              "frequency": "10 mg/kg/día como referencia; prevalece la tabla diaria oficial. No dividir automáticamente en tomas.",
+              "duration": "14 días",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3578%20ESP/FT_3578%20ESP.pdf",
+              "revision": "09/2025"
+            },
+            {
+              "id": "doxybactin-50-cat-respiratory-acute",
+              "species": [
+                "gato"
+              ],
+              "indication": "Gato: infección respiratoria aguda por B. bronchiseptica o Pasteurella sensible a doxiciclina",
+              "frequency": "10 mg/kg/día como referencia; prevalece la tabla diaria oficial. No dividir automáticamente en tomas.",
+              "duration": "Continuar 2–3 días después de la curación clínica. Respuesta habitual tras 5–7 días; no equivale a duración fija. No incluye C. felis ni casos crónicos/resistentes.",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3578%20ESP/FT_3578%20ESP.pdf",
+              "revision": "09/2025"
+            },
+            {
+              "id": "doxybactin-50-cat-c-felis",
+              "species": [
+                "gato"
+              ],
+              "indication": "Gato: infección respiratoria por Chlamydophila felis sensible a doxiciclina",
+              "frequency": "10 mg/kg/día como referencia; prevalece la tabla diaria oficial. No dividir automáticamente en tomas.",
+              "duration": "Mínimo 28 días para asegurar eliminación del microorganismo",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3578%20ESP/FT_3578%20ESP.pdf",
+              "revision": "09/2025"
+            }
+          ],
+          "status": "limited-rules-enabled"
+        },
+        {
+          "id": "doxybactin-2",
+          "label": "200 mg",
+          "rules": [
+            {
+              "id": "doxybactin-200-dog-respiratory-acute",
+              "species": [
+                "perro"
+              ],
+              "indication": "Perro: rinitis por B. bronchiseptica/Pasteurella o bronconeumonía por Bordetella/Pasteurella, infección aguda",
+              "frequency": "10 mg/kg/día como referencia; prevalece la tabla diaria oficial. No dividir automáticamente en tomas.",
+              "duration": "Continuar 2–3 días después de la curación clínica. La respuesta habitual aparece tras 5–7 días; no equivale a duración fija. Excluye casos crónicos/resistentes.",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3579%20ESP/FT_3579%20ESP.pdf",
+              "revision": "09/2025"
+            },
+            {
+              "id": "doxybactin-200-dog-leptospirosis",
+              "species": [
+                "perro"
+              ],
+              "indication": "Perro: nefritis intersticial por Leptospira sensible a doxiciclina",
+              "frequency": "10 mg/kg/día como referencia; prevalece la tabla diaria oficial. No dividir automáticamente en tomas.",
+              "duration": "14 días",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3579%20ESP/FT_3579%20ESP.pdf",
+              "revision": "09/2025"
+            }
+          ],
+          "status": "limited-rules-enabled"
+        }
+      ]
+    },
+    {
+      "id": "metrobactin",
+      "name": "Metrobactin",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "metrobactin-1",
+          "label": "250 mg",
+          "rules": [
+            {
+              "id": "metrobactin-250-bid",
+              "species": [
+                "perro",
+                "gato"
+              ],
+              "indication": "Infección gastrointestinal por Giardia/Clostridium o infección urogenital, oral, faríngea o cutánea por anaerobios obligados",
+              "frequency": "25 mg/kg cada 12 horas (50 mg/kg/día)",
+              "duration": "5–7 días",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3393%20ESP/FT_3393%20ESP.pdf",
+              "revision": "12/2024"
+            }
+          ],
+          "status": "limited-rules-enabled"
+        },
+        {
+          "id": "metrobactin-2",
+          "label": "500 mg",
+          "rules": [
+            {
+              "id": "metrobactin-500-bid",
+              "species": [
+                "perro",
+                "gato"
+              ],
+              "indication": "Infección gastrointestinal por Giardia/Clostridium o infección urogenital, oral, faríngea o cutánea por anaerobios obligados",
+              "frequency": "25 mg/kg cada 12 horas (50 mg/kg/día)",
+              "duration": "5–7 días",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3395%20ESP/FT_3395%20ESP.pdf",
+              "revision": "12/2024"
+            }
+          ],
+          "status": "limited-rules-enabled"
+        }
+      ]
+    },
+    {
+      "id": "clindaseptin",
+      "name": "Clindaseptin",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "clindaseptin-1",
+          "label": "25 mg/ml · 22 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "popandog",
+      "name": "Popandog",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "popandog-1",
+          "label": "50/144/200 mg",
+          "rules": [
+            {
+              "id": "popandog-1-standard",
+              "species": [
+                "perro"
+              ],
+              "indication": "Infección mixta por nematodos y cestodos",
+              "frequency": "Administración única",
+              "duration": "Repetir a los 14 días si helmintiasis diagnosticada; prevención individualizada",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3169%20ESP/FT_3169%20ESP.pdf",
+              "revision": "10/2026"
+            }
+          ],
+          "status": "limited-rules-enabled"
+        }
+      ]
+    },
+    {
+      "id": "milbeguard-duo",
+      "name": "Milbeguard Duo",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "milbeguard-duo-1",
+          "label": "2,5/25 mg",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "milbeguard-duo-2",
+          "label": "12,5/125 mg",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "cestem-sabor",
+      "name": "Cestem Sabor",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "cestem-sabor-1",
+          "label": "Presentaciones por confirmar",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "seresto",
+      "name": "Seresto",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "seresto-1",
+          "label": "Collar perros ≤8 kg",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "seresto-2",
+          "label": "Collar perros >8 kg",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "advantix",
+      "name": "Advantix",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "advantix-1",
+          "label": "≤4 kg · concentración pendiente",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "advantix-2",
+          "label": ">4–10 kg · concentración pendiente",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "advantix-3",
+          "label": ">10–25 kg · concentración pendiente",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "credelio-perros",
+      "name": "Credelio perros",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "credelio-perros-1",
+          "label": "Variante 1 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "credelio-perros-2",
+          "label": "Variante 2 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "credelio-perros-3",
+          "label": "Variante 3 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "credelio-perros-4",
+          "label": "Variante 4 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "credelio-perros-5",
+          "label": "Variante 5 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "credelio-gatos",
+      "name": "Credelio gatos",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "credelio-gatos-1",
+          "label": "0,5–2 kg · concentración pendiente",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "credelio-gatos-2",
+          "label": ">2–8 kg · concentración pendiente",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "credelio-plus",
+      "name": "Credelio Plus",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "credelio-plus-1",
+          "label": "Variante 1 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "credelio-plus-2",
+          "label": "Variante 2 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "credelio-plus-3",
+          "label": "Variante 3 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "credelio-plus-4",
+          "label": "Variante 4 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "credelio-plus-5",
+          "label": "Variante 5 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "felpreva",
+      "name": "Felpreva",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "felpreva-1",
+          "label": "Pequeños · concentración pendiente",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "felpreva-2",
+          "label": "Medianos · concentración pendiente",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "felpreva-3",
+          "label": "Grandes · concentración pendiente",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "vectra-3d",
+      "name": "Vectra 3D",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "vectra-3d-1",
+          "label": "Variante 1 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "vectra-3d-2",
+          "label": "Variante 2 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "vectra-3d-3",
+          "label": "Variante 3 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "vectra-3d-4",
+          "label": "Variante 4 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "vectra-3d-5",
+          "label": "Variante 5 de 5 · intervalo y concentración pendientes",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "procox",
+      "name": "Procox",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "procox-1",
+          "label": "0,9 + 18 mg/ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "hyaloral-plasma",
+      "name": "Hyaloral Plasma",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "hyaloral-plasma-1",
+          "label": "360 comprimidos",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "hyaloral-plasma-gel",
+      "name": "Hyaloral Plasma Gel",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "hyaloral-plasma-gel-1",
+          "label": "Gel oral",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "hyaloral-gel",
+      "name": "Hyaloral Gel",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "hyaloral-gel-1",
+          "label": "Gel oral",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "flexadin-plus",
+      "name": "Flexadin Plus",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "flexadin-plus-1",
+          "label": "90 masticables · variantes por tamaño",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "flexadin-advanced",
+      "name": "Flexadin Advanced",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "flexadin-advanced-1",
+          "label": "Variante pendiente de confirmar",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "nelio",
+      "name": "Nelio",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "nelio-1",
+          "label": "5 mg",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "zelys",
+      "name": "Zelys",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "zelys-1",
+          "label": "1,25 mg · identificación por confirmar",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "cardalis",
+      "name": "Cardalis",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "cardalis-1",
+          "label": "2,5/20 mg · confirmar caja",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "calmatonine-xr",
+      "name": "Calmatonine XR",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "calmatonine-xr-1",
+          "label": "120 comprimidos",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "calmatonine-gel",
+      "name": "Calmatonine Gel",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "calmatonine-gel-1",
+          "label": "Gel 20 ml",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "calmatonine-gel-2",
+          "label": "30 sobres",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "cognidine",
+      "name": "Cognidine",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "cognidine-1",
+          "label": "Comprimidos",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "calming-care",
+      "name": "Calming Care",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "calming-care-1",
+          "label": "30 sobres",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "zylkene",
+      "name": "Zylkene",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "zylkene-1",
+          "label": "<10 kg · concentración pendiente",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "zylkene-2",
+          "label": "10–30 kg · concentración pendiente",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "zylkene-3",
+          "label": "15–60 kg · concentración pendiente",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "feliway-classic",
+      "name": "Feliway Classic",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "feliway-classic-1",
+          "label": "Spray",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "feliway-optimum",
+      "name": "Feliway Optimum",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "feliway-optimum-1",
+          "label": "48 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "oleoderm",
+      "name": "Oleoderm",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "oleoderm-1",
+          "label": "360 cápsulas",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "aloevet",
+      "name": "Aloevet",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "aloevet-1",
+          "label": "Gel",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "cl-exidin-4-spray",
+      "name": "CL-exidin 4% spray",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "cl-exidin-4-spray-1",
+          "label": "Spray",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "cl-exidin-4-champu",
+      "name": "CL-exidin 4% champú",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "cl-exidin-4-champu-1",
+          "label": "Champú",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "vetramil",
+      "name": "Vetramil",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "vetramil-1",
+          "label": "Tamaño por confirmar",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "prednicortone",
+      "name": "Prednicortone",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "prednicortone-1",
+          "label": "5 mg",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "prednicortone-2",
+          "label": "20 mg",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "isaderm",
+      "name": "Isaderm",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "isaderm-1",
+          "label": "Gel",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "triderm",
+      "name": "Triderm",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "triderm-1",
+          "label": "Spray cutáneo",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "malaseb",
+      "name": "Malaseb",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "malaseb-1",
+          "label": "Champú 250 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "zenrelia",
+      "name": "Zenrelia",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "zenrelia-1",
+          "label": "8,5 mg",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "douxo-s3-pyo",
+      "name": "DOUXO S3 PYO",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "douxo-s3-pyo-1",
+          "label": "Champú 200 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "douxo-s3-calm",
+      "name": "DOUXO S3 CALM",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "douxo-s3-calm-1",
+          "label": "Champú 200 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "douxo-s3-seb",
+      "name": "DOUXO S3 SEB",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "douxo-s3-seb-1",
+          "label": "Champú 200 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "digest-plasmoral",
+      "name": "Digest Plasmoral",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "digest-plasmoral-1",
+          "label": "Pequeñas/medianas · 30/120 sobres; envase exacto pendiente",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "digest-plasmoral-2",
+          "label": "Grandes/gigantes · 30/120 sobres; envase exacto pendiente",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "vetgastril-plus",
+      "name": "Vetgastril Plus",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "vetgastril-plus-1",
+          "label": "Gel 20 ml",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "vetgastril-plus-2",
+          "label": "Gel 50 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "daforte-plus",
+      "name": "Daforte Plus",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "daforte-plus-1",
+          "label": "Gel 20 ml",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "daforte-plus-2",
+          "label": "Gel 50 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "vetregul",
+      "name": "Vetregul",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "vetregul-1",
+          "label": "Gel 50 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "gastrocare",
+      "name": "GastroCare",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "gastrocare-1",
+          "label": "20 ml",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "gastrocare-2",
+          "label": "50 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "fortiflora-canino",
+      "name": "FortiFlora canino",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "fortiflora-canino-1",
+          "label": "30 sobres",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "fortiflora-felino",
+      "name": "FortiFlora felino",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "fortiflora-felino-1",
+          "label": "30 sobres",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "carprodyl-quadri",
+      "name": "Carprodyl Quadri",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "carprodyl-quadri-1",
+          "label": "50 mg",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "carprodyl-quadri-2",
+          "label": "Otra concentración por confirmar",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "firodyl",
+      "name": "Firodyl",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "firodyl-1",
+          "label": "62,5 mg",
+          "rules": [
+            {
+              "id": "firodyl-1-standard",
+              "species": [
+                "perro"
+              ],
+              "indication": "Osteoartritis",
+              "frequency": "Cada 24 horas",
+              "duration": "Según respuesta; revisión veterinaria regular. 90 días es el límite de estudios, no una duración prescrita.",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3849%20ESP/FT_3849%20ESP.pdf",
+              "revision": "10/2025"
+            }
+          ],
+          "status": "limited-rules-enabled"
+        },
+        {
+          "id": "firodyl-2",
+          "label": "250 mg",
+          "rules": [
+            {
+              "id": "firodyl-2-standard",
+              "species": [
+                "perro"
+              ],
+              "indication": "Osteoartritis",
+              "frequency": "Cada 24 horas",
+              "duration": "Según respuesta; revisión veterinaria regular. 90 días es el límite de estudios, no una duración prescrita.",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3850%20ESP/FT_3850%20ESP.pdf",
+              "revision": "10/2025"
+            }
+          ],
+          "status": "limited-rules-enabled"
+        }
+      ]
+    },
+    {
+      "id": "tralieve",
+      "name": "Tralieve",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "tralieve-1",
+          "label": "20 mg",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "tralieve-2",
+          "label": "80 mg",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "cimalgex",
+      "name": "Cimalgex",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "cimalgex-1",
+          "label": "8 mg",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "cimalgex-2",
+          "label": "30 mg",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "cimalgex-3",
+          "label": "80 mg",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "meloxidyl",
+      "name": "Meloxidyl",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "meloxidyl-1",
+          "label": "1,5 mg/ml · 10 ml",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "meloxidyl-2",
+          "label": "1,5 mg/ml · 32 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "rheumocam",
+      "name": "Rheumocam",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "rheumocam-1",
+          "label": "0,5 mg/ml · 10 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "hepatosil-plus",
+      "name": "Hepatosil Plus",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "hepatosil-plus-1",
+          "label": "Razas pequeñas",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "hepatosil-plus-2",
+          "label": "Razas medianas/grandes",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "hepatosil-plus-3",
+          "label": "Gel",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "lactadiet-gatos-con-calostro",
+      "name": "Lactadiet gatos con calostro",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "lactadiet-gatos-con-calostro-1",
+          "label": "134 monodosis",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "lactadiet-perros-con-calostro",
+      "name": "Lactadiet perros con calostro",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "lactadiet-perros-con-calostro-1",
+          "label": "134 monodosis",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "lactadiet-nacimiento-y-destete",
+      "name": "Lactadiet nacimiento y destete",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "lactadiet-nacimiento-y-destete-1",
+          "label": "134 monodosis",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "immunity-plasmoral",
+      "name": "Immunity Plasmoral",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "immunity-plasmoral-1",
+          "label": "60 comprimidos",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "lysinviral-plus",
+      "name": "Lysinviral Plus",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "lysinviral-plus-1",
+          "label": "Formato por confirmar",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "oxispeed",
+      "name": "Oxispeed",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "oxispeed-1",
+          "label": "60 comprimidos",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "oxispeed-2",
+          "label": "Gel 50 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "profilaxcel",
+      "name": "Profilaxcel",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "profilaxcel-1",
+          "label": "30 cápsulas",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "dentaldine",
+      "name": "Dentaldine",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "dentaldine-1",
+          "label": "Gel gingival",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "pasta-c-e-t",
+      "name": "Pasta C.E.T.",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "pasta-c-e-t-1",
+          "label": "Sabor ave",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "limpiador-dental-elanco",
+      "name": "Limpiador dental Elanco",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "limpiador-dental-elanco-1",
+          "label": "Perros",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "vitoftal-lutein-plus",
+      "name": "Vitoftal Lutein Plus",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "vitoftal-lutein-plus-1",
+          "label": "Gel oral 50 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "lagrinet-neo",
+      "name": "Lagrinet Neo",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "lagrinet-neo-1",
+          "label": "Solución",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "lacristal-neo",
+      "name": "Lacristal Neo",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "lacristal-neo-1",
+          "label": "Solución",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "oftalmoklear",
+      "name": "OftalmoKlear",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "oftalmoklear-1",
+          "label": "Solución",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "nacotil",
+      "name": "Nacotil",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "nacotil-1",
+          "label": "125 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "cl-otovet",
+      "name": "CL-Otovet",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "cl-otovet-1",
+          "label": "100 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "cortotic",
+      "name": "Cortotic",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "cortotic-1",
+          "label": "0,584 mg/ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "neptra",
+      "name": "Neptra",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "neptra-1",
+          "label": "Monodosis 1 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "otifree",
+      "name": "Otifree",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "otifree-1",
+          "label": "60 ml",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "otifree-2",
+          "label": "160 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "sonotix",
+      "name": "Sonotix",
+      "classification": "higiene / cuidado",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "sonotix-1",
+          "label": "Identificación pendiente",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "ircvet",
+      "name": "Ircvet",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "ircvet-1",
+          "label": "60 comprimidos",
+          "rules": [],
+          "status": "no-calculation"
+        },
+        {
+          "id": "ircvet-2",
+          "label": "Gel 50 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "urpro-xr",
+      "name": "Urpro XR",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "urpro-xr-1",
+          "label": "30 comprimidos",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "urpro-plus-gel",
+      "name": "Urpro Plus Gel",
+      "classification": "complemento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "urpro-plus-gel-1",
+          "label": "50 ml",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "caliercortin",
+      "name": "Caliercortin",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "caliercortin-1",
+          "label": "4 mg/ml · envase y vía por confirmar",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "depo-moderin",
+      "name": "Depo-Moderin",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "depo-moderin-1",
+          "label": "40 mg/ml · envase y vía por confirmar",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "prevomax",
+      "name": "Prevomax",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "prevomax-1",
+          "label": "10 mg/ml · envase y vía por confirmar",
+          "rules": [],
+          "status": "no-calculation"
+        }
+      ]
+    },
+    {
+      "id": "propancat",
+      "name": "Propancat",
+      "classification": "medicamento",
+      "classificationProvisional": true,
+      "presentations": [
+        {
+          "id": "propancat-1",
+          "label": "230/20 mg · comprimidos para gatos",
+          "rules": [
+            {
+              "id": "propancat-230-20-table",
+              "species": [
+                "gato"
+              ],
+              "indication": "Infestación mixta por Toxocara/Toxascaris y Dipylidium/Taenia/Echinococcus; confirmar parásitos",
+              "frequency": "Una administración; repetición según parasitosis y riesgo de reinfestación",
+              "duration": "Áscaris: repetir con un medicamento adecuado para nematodos cada 14 días hasta 2–3 semanas tras el destete. Otras repeticiones: valoración veterinaria, sin calendario automático.",
+              "source": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3494%2BESP/FT_3494%2BESP.pdf",
+              "revision": "10/2024"
+            }
+          ],
+          "status": "limited-rules-enabled"
+        }
+      ]
+    }
+  ]
+}

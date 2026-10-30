@@ -1,0 +1,438 @@
+[
+  {
+    "presentationId": "cefaseptin-1",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3352%20ESP/FT_3352%20ESP.pdf",
+      "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3352+ESP",
+      "revision": "05/2026",
+      "checkedAt": "2026-10-30",
+      "reviewedAt": "2026-10-30",
+      "section": "2; 3.1–3.9; 5.2–5.3",
+      "sections": [
+        "2",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.5",
+        "3.7",
+        "3.8",
+        "3.9",
+        "5.2",
+        "5.3"
+      ],
+      "sha256": "17b05a5923130fb3b6944948e64dde7e7dca7be556f610e098e37c0684936d9f",
+      "verification": "Texto completo clínico cotejado con ficha oficial; pauta estándar únicamente; fracciones exactas sin redondeo"
+    },
+    "route": "oral",
+    "unit": "comprimidos",
+    "divisor": 2,
+    "doseMgKg": 15,
+    "resultBasis": "por administración",
+    "frequency": "Cada 12 horas (dos veces al día)",
+    "components": [
+      {
+        "name": "cefalexina",
+        "mgPerUnit": 75,
+        "doseMgKg": 15
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "No usar con hipersensibilidad a cefalexina, cefalosporinas, betalactámicos o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "resistant",
+        "kind": "contraindication",
+        "text": "No usar en caso de resistencia a cefalosporinas o penicilinas. Confirmar sensibilidad antes de seleccionar la pauta.",
+        "section": "3.3; 3.5"
+      },
+      {
+        "condition": "renal",
+        "kind": "review",
+        "text": "Insuficiencia renal: reducir dosis y evitar antimicrobianos nefrotóxicos; el prospecto no proporciona un algoritmo de ajuste. No calcular pauta estándar.",
+        "section": "3.5"
+      },
+      {
+        "condition": "renalSevereOliguria",
+        "kind": "review",
+        "text": "Disfunción renal: requiere ajuste individual no cuantificado en la ficha; pauta estándar bloqueada.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "review",
+        "text": "Seguridad no establecida en gestación; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "review",
+        "text": "Seguridad no establecida en lactancia; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "diuretic",
+        "kind": "review",
+        "text": "Evitar combinación con diuréticos como furosemida por riesgo de nefrotoxicidad; identificar tratamiento.",
+        "section": "3.8"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Identificar concomitantes: no usar con bacteriostáticos (macrólidos, sulfonamidas, tetraciclinas); evitar aminoglucósidos y otros nefrotóxicos.",
+        "section": "3.5; 3.8"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "No usar en cachorros o gatitos de menos de 1 kg ni gatitos de menos de 10 semanas. El cálculo exacto con este comprimido no representa dosis inferiores a 2,5 kg.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Pauta estándar: confirmar bacteria sensible y necesidad de antibiótico sistémico. No automatiza duplicación por gravedad. Mitad sobrante: conservar en blíster y usar antes de 16 horas.",
+        "section": "3.5; 3.9; 5.2–5.3"
+      }
+    ],
+    "id": "cefaseptin-75-dog-urinary",
+    "species": [
+      "perro"
+    ],
+    "indication": "Perro: infección urinaria por microorganismos sensibles a cefalexina (incluidas nefritis y cistitis)",
+    "duration": "14 días"
+  },
+  {
+    "presentationId": "cefaseptin-1",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3352%20ESP/FT_3352%20ESP.pdf",
+      "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3352+ESP",
+      "revision": "05/2026",
+      "checkedAt": "2026-10-30",
+      "reviewedAt": "2026-10-30",
+      "section": "2; 3.1–3.9; 5.2–5.3",
+      "sections": [
+        "2",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.5",
+        "3.7",
+        "3.8",
+        "3.9",
+        "5.2",
+        "5.3"
+      ],
+      "sha256": "17b05a5923130fb3b6944948e64dde7e7dca7be556f610e098e37c0684936d9f",
+      "verification": "Texto completo clínico cotejado con ficha oficial; pauta estándar únicamente; fracciones exactas sin redondeo"
+    },
+    "route": "oral",
+    "unit": "comprimidos",
+    "divisor": 2,
+    "doseMgKg": 15,
+    "resultBasis": "por administración",
+    "frequency": "Cada 12 horas (dos veces al día)",
+    "components": [
+      {
+        "name": "cefalexina",
+        "mgPerUnit": 75,
+        "doseMgKg": 15
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "No usar con hipersensibilidad a cefalexina, cefalosporinas, betalactámicos o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "resistant",
+        "kind": "contraindication",
+        "text": "No usar en caso de resistencia a cefalosporinas o penicilinas. Confirmar sensibilidad antes de seleccionar la pauta.",
+        "section": "3.3; 3.5"
+      },
+      {
+        "condition": "renal",
+        "kind": "review",
+        "text": "Insuficiencia renal: reducir dosis y evitar antimicrobianos nefrotóxicos; el prospecto no proporciona un algoritmo de ajuste. No calcular pauta estándar.",
+        "section": "3.5"
+      },
+      {
+        "condition": "renalSevereOliguria",
+        "kind": "review",
+        "text": "Disfunción renal: requiere ajuste individual no cuantificado en la ficha; pauta estándar bloqueada.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "review",
+        "text": "Seguridad no establecida en gestación; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "review",
+        "text": "Seguridad no establecida en lactancia; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "diuretic",
+        "kind": "review",
+        "text": "Evitar combinación con diuréticos como furosemida por riesgo de nefrotoxicidad; identificar tratamiento.",
+        "section": "3.8"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Identificar concomitantes: no usar con bacteriostáticos (macrólidos, sulfonamidas, tetraciclinas); evitar aminoglucósidos y otros nefrotóxicos.",
+        "section": "3.5; 3.8"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "No usar en cachorros o gatitos de menos de 1 kg ni gatitos de menos de 10 semanas. El cálculo exacto con este comprimido no representa dosis inferiores a 2,5 kg.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Pauta estándar: confirmar bacteria sensible y necesidad de antibiótico sistémico. No automatiza duplicación por gravedad. Mitad sobrante: conservar en blíster y usar antes de 16 horas.",
+        "section": "3.5; 3.9; 5.2–5.3"
+      }
+    ],
+    "id": "cefaseptin-75-dog-superficial",
+    "species": [
+      "perro"
+    ],
+    "indication": "Perro: pioderma superficial por microorganismos sensibles a cefalexina",
+    "duration": "Al menos 15 días; revisión veterinaria según evolución"
+  },
+  {
+    "presentationId": "cefaseptin-1",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3352%20ESP/FT_3352%20ESP.pdf",
+      "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3352+ESP",
+      "revision": "05/2026",
+      "checkedAt": "2026-10-30",
+      "reviewedAt": "2026-10-30",
+      "section": "2; 3.1–3.9; 5.2–5.3",
+      "sections": [
+        "2",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.5",
+        "3.7",
+        "3.8",
+        "3.9",
+        "5.2",
+        "5.3"
+      ],
+      "sha256": "17b05a5923130fb3b6944948e64dde7e7dca7be556f610e098e37c0684936d9f",
+      "verification": "Texto completo clínico cotejado con ficha oficial; pauta estándar únicamente; fracciones exactas sin redondeo"
+    },
+    "route": "oral",
+    "unit": "comprimidos",
+    "divisor": 2,
+    "doseMgKg": 15,
+    "resultBasis": "por administración",
+    "frequency": "Cada 12 horas (dos veces al día)",
+    "components": [
+      {
+        "name": "cefalexina",
+        "mgPerUnit": 75,
+        "doseMgKg": 15
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "No usar con hipersensibilidad a cefalexina, cefalosporinas, betalactámicos o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "resistant",
+        "kind": "contraindication",
+        "text": "No usar en caso de resistencia a cefalosporinas o penicilinas. Confirmar sensibilidad antes de seleccionar la pauta.",
+        "section": "3.3; 3.5"
+      },
+      {
+        "condition": "renal",
+        "kind": "review",
+        "text": "Insuficiencia renal: reducir dosis y evitar antimicrobianos nefrotóxicos; el prospecto no proporciona un algoritmo de ajuste. No calcular pauta estándar.",
+        "section": "3.5"
+      },
+      {
+        "condition": "renalSevereOliguria",
+        "kind": "review",
+        "text": "Disfunción renal: requiere ajuste individual no cuantificado en la ficha; pauta estándar bloqueada.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "review",
+        "text": "Seguridad no establecida en gestación; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "review",
+        "text": "Seguridad no establecida en lactancia; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "diuretic",
+        "kind": "review",
+        "text": "Evitar combinación con diuréticos como furosemida por riesgo de nefrotoxicidad; identificar tratamiento.",
+        "section": "3.8"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Identificar concomitantes: no usar con bacteriostáticos (macrólidos, sulfonamidas, tetraciclinas); evitar aminoglucósidos y otros nefrotóxicos.",
+        "section": "3.5; 3.8"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "No usar en cachorros o gatitos de menos de 1 kg ni gatitos de menos de 10 semanas. El cálculo exacto con este comprimido no representa dosis inferiores a 2,5 kg.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Pauta estándar: confirmar bacteria sensible y necesidad de antibiótico sistémico. No automatiza duplicación por gravedad. Mitad sobrante: conservar en blíster y usar antes de 16 horas.",
+        "section": "3.5; 3.9; 5.2–5.3"
+      }
+    ],
+    "id": "cefaseptin-75-dog-deep",
+    "species": [
+      "perro"
+    ],
+    "indication": "Perro: pioderma profunda por microorganismos sensibles a cefalexina",
+    "duration": "Al menos 28 días; revisión veterinaria según evolución"
+  },
+  {
+    "presentationId": "cefaseptin-1",
+    "status": "verified",
+    "enabled": true,
+    "source": {
+      "url": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3352%20ESP/FT_3352%20ESP.pdf",
+      "registryUrl": "https://cimavet.aemps.es/cimavet/publico/detalle.html?nregistro=3352+ESP",
+      "revision": "05/2026",
+      "checkedAt": "2026-10-30",
+      "reviewedAt": "2026-10-30",
+      "section": "2; 3.1–3.9; 5.2–5.3",
+      "sections": [
+        "2",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.5",
+        "3.7",
+        "3.8",
+        "3.9",
+        "5.2",
+        "5.3"
+      ],
+      "sha256": "17b05a5923130fb3b6944948e64dde7e7dca7be556f610e098e37c0684936d9f",
+      "verification": "Texto completo clínico cotejado con ficha oficial; pauta estándar únicamente; fracciones exactas sin redondeo"
+    },
+    "route": "oral",
+    "unit": "comprimidos",
+    "divisor": 2,
+    "doseMgKg": 15,
+    "resultBasis": "por administración",
+    "frequency": "Cada 12 horas (dos veces al día)",
+    "components": [
+      {
+        "name": "cefalexina",
+        "mgPerUnit": 75,
+        "doseMgKg": 15
+      }
+    ],
+    "restrictions": [
+      {
+        "condition": "allergy",
+        "kind": "contraindication",
+        "text": "No usar con hipersensibilidad a cefalexina, cefalosporinas, betalactámicos o excipientes.",
+        "section": "3.3"
+      },
+      {
+        "condition": "resistant",
+        "kind": "contraindication",
+        "text": "No usar en caso de resistencia a cefalosporinas o penicilinas. Confirmar sensibilidad antes de seleccionar la pauta.",
+        "section": "3.3; 3.5"
+      },
+      {
+        "condition": "renal",
+        "kind": "review",
+        "text": "Insuficiencia renal: reducir dosis y evitar antimicrobianos nefrotóxicos; el prospecto no proporciona un algoritmo de ajuste. No calcular pauta estándar.",
+        "section": "3.5"
+      },
+      {
+        "condition": "renalSevereOliguria",
+        "kind": "review",
+        "text": "Disfunción renal: requiere ajuste individual no cuantificado en la ficha; pauta estándar bloqueada.",
+        "section": "3.5"
+      },
+      {
+        "condition": "pregnancy",
+        "kind": "review",
+        "text": "Seguridad no establecida en gestación; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "lactation",
+        "kind": "review",
+        "text": "Seguridad no establecida en lactancia; evaluación beneficio/riesgo veterinaria.",
+        "section": "3.7"
+      },
+      {
+        "condition": "diuretic",
+        "kind": "review",
+        "text": "Evitar combinación con diuréticos como furosemida por riesgo de nefrotoxicidad; identificar tratamiento.",
+        "section": "3.8"
+      },
+      {
+        "condition": "other",
+        "kind": "review",
+        "text": "Identificar concomitantes: no usar con bacteriostáticos (macrólidos, sulfonamidas, tetraciclinas); evitar aminoglucósidos y otros nefrotóxicos.",
+        "section": "3.5; 3.8"
+      },
+      {
+        "condition": "puppy",
+        "kind": "precaution",
+        "text": "No usar en cachorros o gatitos de menos de 1 kg ni gatitos de menos de 10 semanas. El cálculo exacto con este comprimido no representa dosis inferiores a 2,5 kg.",
+        "section": "3.5"
+      },
+      {
+        "condition": "always",
+        "kind": "precaution",
+        "text": "Pauta estándar: confirmar bacteria sensible y necesidad de antibiótico sistémico. No automatiza duplicación por gravedad. Mitad sobrante: conservar en blíster y usar antes de 16 horas.",
+        "section": "3.5; 3.9; 5.2–5.3"
+      }
+    ],
+    "id": "cefaseptin-75-cat-skin",
+    "species": [
+      "gato"
+    ],
+    "indication": "Gato: heridas infectadas y abscesos cutáneos/subcutáneos por microorganismos sensibles a cefalexina",
+    "duration": "5 días",
+    "minAgeDays": 70,
+    "ageKind": "contraindication",
+    "ageText": "No usar en gatitos menores de 10 semanas.",
+    "ageSection": "3.5"
+  }
+]

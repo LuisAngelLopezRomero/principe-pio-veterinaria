@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-30",
+  "checks": 254,
+  "result": "passed",
+  "enabledRules": 8,
+  "limits": "Independent check of engine blocking and golden boundaries; does not replace source or UI validation."
+}

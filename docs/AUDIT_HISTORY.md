@@ -1,0 +1,1 @@
+Los documentos research*.json/md son registros de investigación de fases anteriores. Sus contadores reflejan cada checkpoint. El estado final autoritativo está en dist/rules.json, dist/validation-report.md y dist/test-results.txt. Los dos ajustes recomendados (Metrobactin reproductivo y edad ambigua) se aplicaron al motor final.

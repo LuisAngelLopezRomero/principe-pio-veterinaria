@@ -1,0 +1,6 @@
+import fs from 'node:fs';
+const read=n=>JSON.parse(fs.readFileSync(`dist/${n}.json`));
+const products=read('inventory'),presentations=read('presentations'),rules=read('rules');
+const rows=products.map(p=>{const variants=presentations.filter(v=>v.productId===p.id);return {id:p.id,name:p.name,classification:p.type,classificationProvisional:true,presentations:variants.map(v=>({id:v.id,label:v.label,rules:rules.filter(r=>r.presentationId===v.id&&r.enabled&&r.status==='verified').map(r=>({id:r.id,species:r.species,indication:r.indication,frequency:r.frequency,duration:r.duration,source:r.source.url,revision:r.source.revision})),status:rules.some(r=>r.presentationId===v.id&&r.enabled&&r.status==='verified')?'limited-rules-enabled':'no-calculation'}))};});
+fs.writeFileSync('dist/coverage.json',JSON.stringify({checkedAt:'2026-10-30',scope:'Auditoría de implementación; no revalidación clínica integral ni certificación de vigencia',products:rows},null,2)+'\n');
+console.log(JSON.stringify({products:rows.length,productsWithRules:rows.filter(p=>p.presentations.some(v=>v.rules.length)).length,presentations:presentations.length,enabledPresentations:rows.flatMap(p=>p.presentations).filter(p=>p.rules.length).length,rules:rules.filter(r=>r.enabled).length}));

@@ -1,0 +1,440 @@
+[
+  {
+    "productId": "cefaseptin",
+    "presentationLabels": [
+      "75 mg"
+    ],
+    "doseSummary": "15 mg de cefalexina/kg por toma; comprimido de 75 mg divisible en mitades. Pauta estándar sin duplicación automática.",
+    "frequency": "Cada 12 horas",
+    "duration": "Perros: urinaria 14 días; pioderma superficial≥15 d; profunda≥28 d. Gatos heridas/abscesos 5 d.",
+    "contraindications": [
+      "Alergia a cefalexina, cefalosporinas, betalactámicos o excipientes.",
+      "Resistencia a cefalosporinas o penicilinas.",
+      "No usar en cachorros/gatitos<1 kg ni gatitos<10 semanas."
+    ],
+    "limitations": [
+      "Renal: reducción individual sin fórmula oficial; gestación/lactancia requieren beneficio-riesgo.",
+      "Evitar bacteriostáticos, aminoglucósidos y furosemida.",
+      "Solo 75 mg revisado: no extrapolar 300 mg. Mitades exactas, sin redondeo."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3352%20ESP/FT_3352%20ESP.pdf",
+    "revision": "05/2026",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [
+      "cefaseptin-1"
+    ],
+    "calculationEnabled": true
+  },
+  {
+    "productId": "clindaseptin",
+    "presentationLabels": [
+      "25 mg/ml · 22 ml"
+    ],
+    "doseSummary": "Heridas/abscesos:11 mg/kg cada 24 h o 5,5 mg/kg cada 12 h. Perros osteomielitis:11 mg/kg cada 12 h.",
+    "frequency": "Según pauta elegida, cada 12 o 24 h",
+    "duration": "Heridas/abscesos 7–10 d; interrumpir sin respuesta 4 d. Osteomielitis≥28 d; interrumpir sin respuesta 14 d.",
+    "contraindications": [
+      "Alergia a clindamicina, lincomicina o excipientes.",
+      "No usar en conejos, hámsteres, cobayas, chinchillas, caballos o rumiantes."
+    ],
+    "limitations": [
+      "La ficha 25 mg/ml aproxima volúmenes a 0,25/0,5 ml/kg; equivalencia matemática sería 0,22/0,44. Conversión automática pendiente de resolver.",
+      "Renal/hepático grave y recién nacidos requieren valoración; gestación/lactancia beneficio-riesgo.",
+      "Revisar adsorbentes/antiácidos, ciclosporina, bloqueantes neuromusculares, macrólidos/cloranfenicol y aminoglucósidos."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/2512%20ESP/FT_2512%20ESP.pdf",
+    "revision": "02/2026",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [
+      "clindaseptin-1"
+    ],
+    "calculationEnabled": false
+  },
+  {
+    "productId": "milbeguard-duo",
+    "presentationLabels": [
+      "2,5/25 mg"
+    ],
+    "doseSummary": "Mínimo 0,5 mg/kg milbemicina oxima+5 mg/kg prazicuantel. Tabla:[0,5–1]kg=½comprimido; >1–5 kg=1; >5–10 kg=2.",
+    "frequency": "Dosis única oral con/después de comida para pauta intestinal; otros parásitos requieren protocolos distintos.",
+    "duration": "Repetición según parásito y riesgo; Angiostrongylus y Thelazia requieren protocolos específicos del RCM que no se automatizan aquí.",
+    "contraindications": [
+      "Menores de 2 semanas o peso<0,5 kg.",
+      "Hipersensibilidad a componentes."
+    ],
+    "limitations": [
+      "Requiere criba de dirofilariosis/microfilaremia y riesgo MDR 1/Collie.",
+      "Renal/hepático grave o debilitado: beneficio-riesgo; gestación/lactancia permitidas.",
+      "No extrapolar a 12,5/125 mg; comprobar otras lactonas macrocíclicas.",
+      "En menores de 4 semanas puede no ser necesario el combinado: infección por cestodos infrecuente; valorar necesidad."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/4231%20ESP/FT_4231%20ESP.pdf",
+    "revision": "03/2026",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [
+      "milbeguard-duo-1"
+    ],
+    "calculationEnabled": false
+  },
+  {
+    "productId": "cestem-sabor",
+    "presentationLabels": [
+      "150 mg febantel + 50 mg pirantel (como embonato) + 50 mg prazicuantel · perros medianos y pequeños"
+    ],
+    "doseSummary": "15/5/5 mg/kg febantel/pirantel/prazicuantel. Tabla:[3–5]kg=½; >5–10=1; >10–15=1½; >15–20=2 comprimidos.",
+    "frequency": "Una administración oral",
+    "duration": "Rutina: dosis única. Infección masiva por nematodos: repetir 14 d. Calendario posterior individualizado.",
+    "contraindications": [
+      "Hipersensibilidad.",
+      "No usar primeras 4 semanas de gestación.",
+      "No simultanear piperazina."
+    ],
+    "limitations": [
+      "Inventario aún no identifica esta variante frente a otras presentaciones.",
+      "Especies autorizadas: perros≥3 kg. Lactancia permitida.",
+      "Revisar inductores CYP 450 y fármacos colinérgicos.50 mg de pirantel no son 50 mg de embonato."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/2170%20ESP/FT_2170%20ESP.pdf",
+    "revision": "10/2025",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [],
+    "calculationEnabled": false
+  },
+  {
+    "productId": "nelio",
+    "presentationLabels": [
+      "5 mg"
+    ],
+    "doseSummary": "0,25–0,5 mg/kg de hidrocloruro de benazepril. Tabla estándar:[2,5–5]kg=¼; >5–10=½; >10–15=¾; >15–20=1 comprimido.",
+    "frequency": "Cada 24 h, con o sin comida",
+    "duration": "Ilimitada según ficha; seguimiento clínico.",
+    "contraindications": [
+      "Hipotensión, hipovolemia, hiponatremia o insuficiencia renal aguda.",
+      "Bajo gasto por estenosis aórtica/pulmonar.",
+      "Gestación, lactancia o alergia."
+    ],
+    "limitations": [
+      "Solo perros con ICC.5 mg de sal equivalen 4,6 mg benazepril.",
+      "La dosis doble requiere decisión veterinaria.",
+      "Faltan subtipos de cardiopatía y enfermedad renal en formulario; monitorizar función renal/electrolitos e interacciones con AINE/hipotensores."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/2095%20ESP/FT_2095%20ESP.pdf",
+    "revision": "03/2025",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [
+      "nelio-1"
+    ],
+    "calculationEnabled": false
+  },
+  {
+    "productId": "zelys",
+    "presentationLabels": [
+      "1,25 mg · identificación por confirmar"
+    ],
+    "doseSummary": "0,2–0,6 mg/kg/día de pimobendán; preferida 0,5 mg/kg/día repartida en 0,25 mg/kg por toma. Mitades autorizadas.",
+    "frequency": "Dos tomas≈12 h separadas,≈1 h antes de comida",
+    "duration": "No cuantificada; seguimiento de función y morfología cardíaca.",
+    "contraindications": [
+      "Cardiomiopatía hipertrófica o alteraciones que impidan aumentar gasto cardíaco, p.ej.estenosis aórtica.",
+      "Insuficiencia hepática grave.",
+      "Hipersensibilidad."
+    ],
+    "limitations": [
+      "Perros con ICC por insuficiencia valvular o cardiomiopatía dilatada.",
+      "Precisa resolver identificación y subtipo cardíaco/hepático.",
+      "Controlar glucemia en diabéticos; gestación/lactancia beneficio-riesgo; interacciones: verapamilo, diltiazem, propranolol."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3612%20ESP/FT_3612%20ESP.pdf",
+    "revision": "05/2024",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [
+      "zelys-1"
+    ],
+    "calculationEnabled": false
+  },
+  {
+    "productId": "prednicortone",
+    "presentationLabels": [
+      "5 mg"
+    ],
+    "doseSummary": "Inicial 0,5–4 mg/kg/día prednisolona; elegir dosis eficaz mínima individualmente. Comprimido divisible en mitades/cuartos.",
+    "frequency": "Diaria inicialmente; perro mañana, gato noche. Retirada progresiva individual.",
+    "duration": "Individual; reducción en días alternos y/o mitad cada 5–7 d según respuesta.",
+    "contraindications": [
+      "Infecciones virales/micóticas no controladas, diabetes, Cushing, osteoporosis.",
+      "Disfunción cardíaca/renal, úlceras corneales/GI, quemaduras, glaucoma.",
+      "Gestación, alergia o vacunas vivas concomitantes."
+    ],
+    "limitations": [
+      "Rango no permite seleccionar automáticamente una dosis ni duración.",
+      "Faltan contraindicaciones específicas en formulario.",
+      "No extrapolar a 20 mg. Revisar vacunación en 2 semanas, AINE, diuréticos, glucósidos y otras interacciones."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3313%20ESP/FT_3313%20ESP.pdf",
+    "revision": "03/2025",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [
+      "prednicortone-1"
+    ],
+    "calculationEnabled": false
+  },
+  {
+    "productId": "tralieve",
+    "presentationLabels": [
+      "80 mg"
+    ],
+    "doseSummary": "2–4 mg/kg de hidrocloruro de tramadol por toma; máximo 16 mg/kg/día.80 mg de sal equivalen 70,3 mg tramadol; mitades/cuartos.",
+    "frequency": "Cada 8 h o según dolor; intervalo mínimo 6 h",
+    "duration": "Individual; revisión regular de analgesia y retirada gradual si tratamiento prolongado.",
+    "contraindications": [
+      "Epilepsia, alergia.",
+      "Uso concomitante de tricíclicos, IMAO o inhibidores recaptación serotonina."
+    ],
+    "limitations": [
+      "La tabla del documento ilustra 4 mg/kg y no fija dosis universal.",
+      "Precisa elección clínica de dosis/intervalo y controles diarios. Renal requiere ajuste; vigilar hepática.",
+      "No extrapolar a 20 mg. Gestación/lactancia beneficio-riesgo; revisar SNC, CYP 450 y otros analgésicos."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3659%20ESP/FT_3659%20ESP.pdf",
+    "revision": "10/2024",
+    "checkedAt": "2026-10-30",
+    "status": "document-reviewed-not-all-calculations-enabled",
+    "presentationIds": [
+      "tralieve-2"
+    ],
+    "calculationEnabled": false
+  },
+  {
+    "productId": "advantix",
+    "presentationLabels": [
+      "40 mg + 200 mg / 0,4 ml · perros ≤4 kg"
+    ],
+    "doseSummary": "Una pipeta completa de 0,4 ml sobre piel sana para perros de 1,5 a 4 kg. Contenido: 40 mg imidacloprid + 200 mg permetrina; no fraccionar por peso.",
+    "frequency": "Repetición según parásito, epidemiología y estilo de vida; no hay un intervalo único para todos los objetivos.",
+    "duration": "Piojos: revisión veterinaria a los 30 días. Duración de protección variable según parásito.",
+    "contraindications": [
+      "No gatos; permetrina muy tóxica.",
+      "No perros de menos de 1,5 kg o cachorros menores de 7 semanas.",
+      "No hipersensibilidad a componentes."
+    ],
+    "limitations": [
+      "Solo fuente de la presentación ≤4 kg; otras concentraciones pendientes.",
+      "Mantener alejados de gatos hasta secado y evitar lamido.",
+      "Enfermos o debilitados: valoración veterinaria previa.",
+      "Gestación/lactancia permitidas por esta ficha; no convertir duración de eficacia en frecuencia universal."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/1553%20ESP/FT_1553%20ESP.pdf",
+    "revision": "08/2026",
+    "reviewStatus": "clinical-sections-reviewed-local",
+    "checkedAt": "2026-10-30",
+    "calculationEnabled": false,
+    "onlineCheck": "Consulta oficial adicional de identidad/pauta; no certifica estado comercial vigente.",
+    "presentationIds": []
+  },
+  {
+    "productId": "seresto",
+    "presentationLabels": [
+      "1,25 g + 0,56 g · collar 38 cm · perros ≤8 kg"
+    ],
+    "doseSummary": "Un collar de 38 cm por perro ≤8 kg. Contiene 1,25 g imidacloprid + 0,56 g flumetrina; el contenido no es una dosis oral ni una cantidad absorbida.",
+    "frequency": "Uso continuo; comprobar y ajustar periódicamente.",
+    "duration": "Llevar durante los 8 meses del periodo de protección; la eficacia concreta varía según parásito/objetivo.",
+    "contraindications": [
+      "No cachorros menores de 7 semanas.",
+      "No hipersensibilidad a componentes."
+    ],
+    "limitations": [
+      "Solo ficha ≤8 kg; no valida la presentación >8 kg.",
+      "Gestación/lactancia: uso no recomendado, seguridad no demostrada.",
+      "No es un cálculo mg/kg."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/2349%20ESP/FT_2349%20ESP.pdf",
+    "revision": "10/2025",
+    "reviewStatus": "clinical-sections-reviewed-local",
+    "checkedAt": "2026-10-30",
+    "calculationEnabled": false,
+    "onlineCheck": "PDF oficial abierto adicionalmente; identidad y contenido clínico contrastados.",
+    "presentationIds": [
+      "seresto-1"
+    ]
+  },
+  {
+    "productId": "cortotic",
+    "presentationLabels": [
+      "0,584 mg/ml · solución para pulverización ótica · perros"
+    ],
+    "doseSummary": "0,44 ml por oído afectado, equivalentes a dos pulsaciones de bomba. No depende del peso.",
+    "frequency": "Una vez al día.",
+    "duration": "7 días consecutivos; extensión hasta 14 solo tras valoración veterinaria si no está curada. Respuesta máxima puede tardar 28 días.",
+    "contraindications": [
+      "No tímpano perforado.",
+      "No lesiones ulcerosas.",
+      "No hipersensibilidad al principio activo, otros corticosteroides o excipientes."
+    ],
+    "limitations": [
+      "Examinar previamente el tímpano.",
+      "Menores de 7 meses o menos de 2,8 kg: beneficio/riesgo, no contraindicación absoluta.",
+      "Valorar Cushing, trastornos endocrinos/diabetes, demodicosis y otitis supurativa o parasitaria.",
+      "Gestación/lactancia: valoración beneficio/riesgo.",
+      "Faltan campos de integridad timpánica, lesión local y oído afectado para automatizar."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/4137%20ESP/FT_4137%20ESP.pdf",
+    "revision": "01/2025",
+    "reviewStatus": "clinical-sections-reviewed-local",
+    "checkedAt": "2026-10-30",
+    "calculationEnabled": false,
+    "onlineCheck": "Consulta oficial adicional de identidad/pauta; no certifica estado comercial vigente.",
+    "presentationIds": [
+      "cortotic-1"
+    ]
+  },
+  {
+    "productId": "isaderm",
+    "presentationLabels": [
+      "Gel · 5 mg/g ácido fusídico + 1 mg/g betametasona · perros"
+    ],
+    "doseSummary": "Película fina sobre lesión limpia y con pelo recortado. Para dermatitis húmeda aguda localizada leve/moderada; no hay cantidad en mg/kg.",
+    "frequency": "Dos veces al día.",
+    "duration": "Mínimo 5 días; continuar 2 días tras curación, sin exceder 7 días. Reevaluar si no mejora a los 3 días o empeora.",
+    "contraindications": [
+      "No hipersensibilidad.",
+      "No piodermas superficiales (impétigo, foliculitis, acné) ni profundas, infección fúngica o Cushing.",
+      "No lesiones extensas, ulceradas o infectadas de origen parasitario, vírico o fúngico.",
+      "No gestación ni lactancia."
+    ],
+    "limitations": [
+      "Precaución en perros pequeños o menores de 12 semanas.",
+      "Control glucémico en diabéticos.",
+      "No otros tópicos simultáneos sobre la misma lesión.",
+      "Faltan características de lesión; no inventar gramos de gel a partir del peso."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/1544%20ESP/FT_1544%20ESP.pdf",
+    "revision": "10/2025",
+    "reviewStatus": "clinical-sections-reviewed-local",
+    "checkedAt": "2026-10-30",
+    "calculationEnabled": false,
+    "onlineCheck": "Consulta oficial adicional de identidad/pauta; no certifica estado comercial vigente.",
+    "presentationIds": [
+      "isaderm-1"
+    ]
+  },
+  {
+    "productId": "malaseb",
+    "presentationLabels": [
+      "Champú 250 ml · 20 mg/ml digluconato de clorhexidina + 20 mg/ml nitrato de miconazol"
+    ],
+    "doseSummary": "Cantidad suficiente para cubrir piel y pelo con espuma; contacto 10 minutos y aclarado. Los rendimientos por frasco son orientativos, no una tabla de ml/kg.",
+    "frequency": "Perros: dos veces por semana hasta mejoría, después semanal o según necesidad. Gatos con tiña por M. canis: dos veces por semana junto con griseofulvina.",
+    "duration": "Gatos: hasta cultivos negativos, máximo 16 semanas. Perros: según control de la afección.",
+    "contraindications": [
+      "No hipersensibilidad a componentes.",
+      "No asociación con griseofulvina en gatas gestantes."
+    ],
+    "limitations": [
+      "Evitar ojos, ingestión/inhalación y lamido hasta secado.",
+      "Crías sin contacto con hembras lactantes tratadas hasta secado.",
+      "La indicación felina exige el tratamiento asociado de la ficha.",
+      "No calculable por peso."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/2125%20ESP/FT_2125%20ESP.pdf",
+    "revision": "07/2025",
+    "reviewStatus": "clinical-sections-reviewed-local",
+    "checkedAt": "2026-10-30",
+    "calculationEnabled": false,
+    "onlineCheck": "Consulta oficial adicional de identidad/pauta; no certifica estado comercial vigente.",
+    "presentationIds": [
+      "malaseb-1"
+    ]
+  },
+  {
+    "productId": "triderm",
+    "presentationLabels": [
+      "Spray cutáneo 30 ml · 1,025 mg/ml marbofloxacino + 2,041 mg/ml ketoconazol + 0,926 mg/ml prednisolona · perros"
+    ],
+    "doseSummary": "Dos pulsaciones ≈0,2 ml por tratamiento: superficie 5×5 cm a ≈10 cm de distancia, o 10×10 cm a ≈30 cm. No dosis por kilogramo.",
+    "frequency": "Dos veces al día.",
+    "duration": "7–14 días según evolución clínica/microbiológica; revisar al día 7 y cambiar si no recuperado al 14.",
+    "contraindications": [
+      "No hipersensibilidad a componentes."
+    ],
+    "limitations": [
+      "Solo infección mixta demostrada y sensible a los principios activos según ficha.",
+      "Evitar heridas/lesiones abiertas y lamido; no champú durante tratamiento.",
+      "No recomendado en gestación/lactancia.",
+      "Interacciones: no existe información disponible.",
+      "Requiere superficie, distancia y diagnóstico; no interpolar automáticamente."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/ft/3774%20ESP/FT_3774%20ESP.pdf",
+    "revision": "09/2026",
+    "reviewStatus": "clinical-sections-reviewed-local",
+    "checkedAt": "2026-10-30",
+    "calculationEnabled": false,
+    "onlineCheck": "Consulta oficial adicional de identidad/pauta; no certifica estado comercial vigente.",
+    "presentationIds": [
+      "triderm-1"
+    ]
+  },
+  {
+    "productId": "caliercortin",
+    "presentationLabels": [
+      "4 mg/ml dexametasona · solución inyectable"
+    ],
+    "doseSummary": "Perros/gatos: intervalo 0,1–0,25 mg de dexametasona/kg. Equivalente publicado 0,025–0,063 ml/kg; extremo matemático exacto superior 0,0625 ml/kg. Dosis concreta a elegir por veterinario.",
+    "frequency": "Administración única.",
+    "duration": "Una administración según indicación; no inferir repetición.",
+    "contraindications": [
+      "No úlcera gastrointestinal, heridas/úlceras mal curadas o fracturas.",
+      "No infección viral sistémica, inmunodeficiencia general o micosis sistémica.",
+      "No glaucoma/catarata, osteoporosis/hipocalcemia, hipercorticismo, hipertensión o pancreatitis.",
+      "No hipersensibilidad al principio activo, corticosteroides o excipientes."
+    ],
+    "limitations": [
+      "Vías SC, IM o IV; IV exclusivamente veterinaria.",
+      "Diabetes, insuficiencia cardíaca/renal y epilepsia requieren precaución.",
+      "Gestación, lactancia, crecimiento/ancianos: indicación estricta.",
+      "Faltan controles de infecciones, vacunas y varias interacciones; no elegir automáticamente un extremo del intervalo."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/p/3780%20ESP/P_3780%20ESP.pdf",
+    "revision": "07/2025",
+    "reviewStatus": "clinical-sections-reviewed-local",
+    "checkedAt": "2026-10-30",
+    "calculationEnabled": false,
+    "onlineCheck": "PDF oficial abierto adicionalmente; identidad y contenido clínico contrastados.",
+    "presentationIds": []
+  },
+  {
+    "productId": "depo-moderin",
+    "presentationLabels": [
+      "40 mg/ml acetato de metilprednisolona · suspensión inyectable"
+    ],
+    "doseSummary": "Perros/gatos por vía IM: 1–2 mg de acetato de metilprednisolona/kg; tablas de intervalos de volumen para pesos concretos. No confundir con base (36 mg/ml).",
+    "frequency": "Repetición individual según gravedad y respuesta, sin frecuencia fija.",
+    "duration": "Alivio habitual de unas 3 semanas, variable; esto no es una pauta de repetición.",
+    "contraindications": [
+      "No gestación ni hipersensibilidad.",
+      "No infección vírica virémica, micosis sistémica o bacteriana sin tratamiento antibiótico adecuado.",
+      "No tuberculosis, úlceras gastrointestinales/corneales o Cushing.",
+      "Salvo emergencia, no diabetes, insuficiencia renal/cardíaca, hiperadrenocorticismo u osteoporosis."
+    ],
+    "limitations": [
+      "Administración exclusivamente veterinaria.",
+      "Dosis intraarticular no transferible a intramuscular.",
+      "Jeringa tipo insulina para volúmenes <1 ml.",
+      "Faltan elección del intervalo, vía, vacunas y controles clínicos."
+    ],
+    "sourceUrl": "https://cimavet.aemps.es/cimavet/pdfs/es/p/715%20ESP/P_715%20ESP.pdf",
+    "revision": "09/2024",
+    "reviewStatus": "clinical-sections-reviewed-local",
+    "checkedAt": "2026-10-30",
+    "calculationEnabled": false,
+    "onlineCheck": "PDF oficial abierto adicionalmente; identidad y contenido clínico contrastados.",
+    "presentationIds": []
+  }
+]
